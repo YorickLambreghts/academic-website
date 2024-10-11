@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yorick Lambreghts</title>
+    <link>https://yoricklambreghts.com/</link>
+      <atom:link href="https://yoricklambreghts.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yorick Lambreghts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yoricklambreghts.com/media/icon_hu10960734438886622341.png</url>
+      <title>Yorick Lambreghts</title>
+      <link>https://yoricklambreghts.com/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://yoricklambreghts.com/event/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/event/example/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Hugo Blox Builder&amp;rsquo;s 
+ feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including 
+ such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting whaler shark presence and interactions with humans in southern Queensland, Australia</title>
+      <link>https://yoricklambreghts.com/publication/lopes2024/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/publication/lopes2024/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;The Queensland Shark Control Program (QSCP) started in 1962 to reduce the number of shark-human incidents by deploying nets and drumlines across the most popular beaches. The program targets large shark species (white, tiger and bull sharks) that are potentially hazardous to bathers. However, this strategy is lethal for other sharks and marine wildlife, including threatened and endangered species. Thus, finding non-lethal strategies is a priority. To better manage shark-human interactions, establishing a better understanding of the factors that drive shark movement is key. Here we used sea surface temperature (SST), rainfall and distance to rivers as environmental variables to predict the presence of whaler sharks in southern Queensland based on 26 years of catch data from the QSCP. We found that SST is positively corelated to sharks caught by drumlines, while rainfall was associated with the number of sharks captured in shark nets. In addition, more sharks were captured by nets and drumlines further away from rivers, and nets captured roughly 10 times more sharks than drumlines over the period of study. In contrast to tiger sharks, the catch data indicate the number of whalers has not declined over the past 26 years. Our findings suggest that environmental variables can be used to predict the movement of large sharks and by incorporating this knowledge into management plans and public education programs, may ultimately reduce shark-human incidents.&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hotspot shelters stimulate frog resistance to chytridiomycosis</title>
+      <link>https://yoricklambreghts.com/publication/waddle2024/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/publication/waddle2024/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+Many threats to biodiversity cannot be eliminated; for example, invasive pathogens may be ubiquitous. Chytridiomycosis is a fungal disease that has spread worldwide, driving at least 90 amphibian species to extinction, and severely affecting hundreds of others. Once the disease spreads to a new environment, it is likely to become a permanent part of that ecosystem. To enable coexistence with chytridiomycosis in the field, we devised an intervention that exploits host defences and pathogen vulnerabilities. Here we show that sunlight-heated artificial refugia attract endangered frogs and enable body temperatures high enough to clear infections, and that having recovered in this way, frogs are subsequently resistant to chytridiomycosis even under cool conditions that are optimal for fungal growth. Our results provide a simple, inexpensive and widely applicable strategy to buffer frogs against chytridiomycosis in nature. The refugia are immediately useful for the endangered species we tested and will have broader utility for amphibian species with similar ecologies. Furthermore, our concept could be applied to other wildlife diseases in which differences in host and pathogen physiologies can be exploited. The refugia are made from cheap and readily available materials and therefore could be rapidly adopted by wildlife managers and the public. In summary, habitat protection alone cannot protect species that are affected by invasive diseases, but simple manipulations to microhabitat structure could spell the difference between the extinction and the persistence of endangered amphibians.
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kin recognition and sociality</title>
+      <link>https://yoricklambreghts.com/research/kinrecognition/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/research/kinrecognition/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Family living&lt;/strong&gt; is an important aspect of social behaviour in species throughout the animal kingdom. The organisation of family groups varies across species, from simple family life, such as that where offspring are tolerated on the parental territory, to highly complex family structures, such as that found in eusocial insects. This variation has captivated behavioural and evolutionary biologists for decades. As a result, there has been substantial work to explain how complex family organisation comes about in the first place. Family living initially arises when offspring forgo immediate dispersal, for instance due to ecological constraints (e.g., no available territories), and remain with one or both parents instead. Kin selection is thought to play an important role in this group formation through the inclusive fitness benefits provided by cooperating with related conspecifics. An implicit assumption to preferential cooperation with kin is that individuals recognise their relatives, a process called &lt;strong&gt;kin recognition&lt;/strong&gt;. Nevertheless, the precise relationship between kin recognition and the evolution of family organisation, as well as the factors that have influenced the emergence of kin ecognition itself, remain largely unknown.&lt;/p&gt;
+&lt;p&gt;During my PhD, I addressed this knowledge gap by investigating which factors could have influenced the early development of kin recognition and its links with family living. I started by leveraging the existing literature to outline the potential role that the prenatal environment plays in mediating the emergence of kin recognition preferences. I discuss the potential social environment in which embryos develop and illustrate how the close social associations of embryos can provide a foundation for early learning of kin characteristics for postnatal recognition. Various aspects of the developmental setting (e.g., clutch size, gestation period or intrauterine position) affect communication opportunities, and thus constrain or promote associations which could give rise to the development of kin recognition. Such effects are expected to be particularly pronounced in species with viviparous (live bearing) reproduction as opposed to oviparity (egg laying), where physical barriers constrain communication. To that end, I empirically tested how reproductive mode affects kin discrimination. I used the lizard species &lt;em&gt;Saiphos equalis&lt;/em&gt;, which exhibits intraspecific variation in reproductive mode, a trait rare amongst vertebrates. My results unexpectedly did not suggest any effect of reproductive mode on kin discrimination, for which I propose several potential explanations.&lt;/p&gt;
+&lt;p&gt;I then applied behavioural, chemical, and genetic analysis to uncover the relationship between kin recognition and complex sociality. For a model system leverage a group of Australian family-living skinks, collectively called the Egernia group, which exhibit high diversity in family structure, from largely solitary to communal living species. To achieve this, I first compared kin discrimination between Egernia group species with differing levels of social complexity: &lt;em&gt;Eulamprus quoyii&lt;/em&gt; (non-Egernia outgroup), &lt;em&gt;Liopholis whitii&lt;/em&gt;, and &lt;em&gt;Egernia saxatilis&lt;/em&gt;. I show that &lt;em&gt;E. saxatilis&lt;/em&gt; exhibits kin discrimination soon after birth, but no longer at four months of age. No kin discrimination was observed within either &lt;em&gt;L. whitii&lt;/em&gt; or &lt;em&gt;E. quoyii.&lt;/em&gt; I then conducted a detailed analysis of chemical compounds found in scats, which are known to be involved in communication, of five species: &lt;em&gt;E. quoyii&lt;/em&gt;, &lt;em&gt;L. whitii&lt;/em&gt;, &lt;em&gt;E. saxatilis&lt;/em&gt;, &lt;em&gt;Egernia cunninghami&lt;/em&gt;, and &lt;em&gt;Tiliqua rugosa&lt;/em&gt;. I found strong intraspecific differences in the chemical composition of scats. This variation in chemical composition showed putative links to variation in sociality; however, other factors such as diet, phylogeny or climate may also play a role. Finally, I utilised one species of Egernia, &lt;em&gt;L. whitii&lt;/em&gt;, to test the links between differences in the chemical structure between individuals and their pairwise relatedness. If scats provide kin cues, they are expected to contain genotypic signals. My results suggest a weak link between chemical and genotypic similarity between individuals, however, the strength of the signal conforms to that found in other systems.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-example-kin-recognition-trial-with-black-rock-skink-e-saxatilis-juvenile&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;E. saxatilis kin recognition trial&#34;
+           src=&#34;https://yoricklambreghts.com/research/kinrecognition/KR-trial.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Example kin recognition trial with black rock skink (&lt;em&gt;E. saxatilis&lt;/em&gt;) juvenile.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Combined, my results provide a valuable contribution to our understanding of the origin of kin recognition and the factors that may be involved in its evolution. My thesis highlights the potential of squamate reptiles, lizards in particular, for questions regarding social behaviour. Their variation in reproductive strategies and social complexity, both between and within species provide unique advantages that are lacking to varying degrees in mammals, birds or social insects&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;PhD_diagram.svg&#34; alt=&#34;PhD thesis diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;study-system&#34;&gt;Study system&lt;/h2&gt;
+&lt;h3 id=&#34;egernia-group&#34;&gt;Egernia group&lt;/h3&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;My biggest model system consists of a group of 60 species across seven Australian skink genera (&lt;em&gt;Egernia&lt;/em&gt;, &lt;em&gt;Liopholis&lt;/em&gt;, &lt;em&gt;Bellatorias&lt;/em&gt;, &lt;em&gt;Lissolepis&lt;/em&gt;, &lt;em&gt;Tiliqua&lt;/em&gt;, &lt;em&gt;Cyclodomorphus&lt;/em&gt; and &lt;em&gt;Corucia&lt;/em&gt;) collectively referred to as the Egernia group or Egerniinae. The group separates itself from most other lizards with its high variation in complexity of social structures. While most lizards are solitary, species of the Egernia group display a wide variation in social structures from solitary (e.g., &lt;em&gt;Tiliqua rugosa&lt;/em&gt;) all the way to species living in large communal groups (e.g., &lt;em&gt;Egernia cunninghami&lt;/em&gt;) and everything in between. This variation makes them an excellent system to investigate the initial evolution of sociality and related behaviour, such as kin recognition.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-egernia-model-system&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Egernia species&#34; srcset=&#34;
+               /research/kinrecognition/phd-egernia-collage_hu8435001949810093236.webp 400w,
+               /research/kinrecognition/phd-egernia-collage_hu6052362238660559771.webp 760w,
+               /research/kinrecognition/phd-egernia-collage_hu5120691759385362937.webp 1200w&#34;
+               src=&#34;https://yoricklambreghts.com/research/kinrecognition/phd-egernia-collage_hu8435001949810093236.webp&#34;
+               width=&#34;754&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Egernia model system.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;saiphos&#34;&gt;Saiphos&lt;/h3&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;My second model system consists of the Australian skink &lt;em&gt;Saiphos equalis&lt;/em&gt; or three-toed skink. These skinks have an unusual fossorial (i.e., have a burrowing lifestyle) and nocturnal ecology. However, it is not their lifestyle that makes them so interesting from a kin recognition perspective, but its unique mode of reproduction. &lt;em&gt;Saiphos&lt;/em&gt; is one of ~eight lizard species with well-documented bimodal reproduction, which means that females of some populations (typically lower elevation) lay eggs (oviparity), while females from other populations (higher elevations) give birth to live young (viviparity). In reality the distinction is not black and white and individuals can be positioned along a continuum from ‘true’ egg laying to ‘true’ live bearing. This is in contrast to the vast majority of vertebrates in which the entire species either gives birth to live young or lays eggs. Their unique trait makes &lt;em&gt;S. equalis&lt;/em&gt; ideal to answer specific questions regarding the influence of reproductive mode on different traits, such as kin recognition. They allow for intraspecific methods to be used without many of the confounding factors that are inevitable when using interspecific methods.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-comparison-of-saiphos-equalis-eggs-left-semi-calcified-egg-from-transitional-in-between-egg-laying-and-live-bearing-sydney-population-right-juvenile-in-egg-consisting-of-non-calcified-membrane-from-live-bearing-population-from-mount-mackenzie-nature-reserve-northern-nsw&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Saiphos egg comparison photo&#34; srcset=&#34;
+               /research/kinrecognition/saiphos_egg_comparison_hu11543561081575693370.webp 400w,
+               /research/kinrecognition/saiphos_egg_comparison_hu583090517588820456.webp 760w,
+               /research/kinrecognition/saiphos_egg_comparison_hu1504578427509574145.webp 1200w&#34;
+               src=&#34;https://yoricklambreghts.com/research/kinrecognition/saiphos_egg_comparison_hu11543561081575693370.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Comparison of &lt;em&gt;Saiphos equalis&lt;/em&gt; eggs. Left: semi-calcified egg from transitional (in between egg-laying and live-bearing) Sydney population. Right: juvenile in &amp;quot;egg&amp;quot; consisting of non-calcified membrane from live bearing population from Mount Mackenzie Nature Reserve (Northern NSW).
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 Easily create your own simple yet highly customizable blog</title>
+      <link>https://yoricklambreghts.com/post/get-started/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/post/get-started/</guid>
+      <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
+
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#get-started&#34;&gt;Get Started&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor&#34;&gt;&lt;a href=&#34;https://hugoblox.com/sponsor/&#34;&gt;❤️ Click here to become a sponsor and help support Hugo Blox&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ecosystem&#34;&gt;Ecosystem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#inspiration&#34;&gt;Inspiration&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;get-started&#34;&gt;Get Started&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 
+&lt;/li&gt;
+&lt;li&gt;📚 
+&lt;/li&gt;
+&lt;li&gt;💬 
+ or 
+&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: 
+ 
+ #MadeWithHugoBlox&lt;/li&gt;
+&lt;li&gt;💡 
+&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Hugo Blox?&lt;/strong&gt; View the 
+ and 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor&#34;&gt;
+&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock 
+ awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;
+:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;
+ are building with this template.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with no-code 
+ and 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
+, 
+, or 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code syntax highlighting and LaTeX math supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
+, 
+, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one-page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 35+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Hugo Blox and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.&lt;/p&gt;
+&lt;p&gt;
+ for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present 
+.&lt;/p&gt;
+&lt;p&gt;Released under the 
+ license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📈 Communicate your results effectively with the best data visualizations</title>
+      <link>https://yoricklambreghts.com/post/data-visualization/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/post/data-visualization/</guid>
+      <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
+&lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
+&lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the popular 
+ format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+
+
+
+
+&lt;div id=&#34;chart-348216579&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  async function fetchChartJSON() {
+    console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
+    const response = await fetch(&#39;.\/line-chart.json&#39;);
+    return await response.json();
+  }
+
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        console.debug(&#39;Plotly not loaded yet...&#39;)
+        return;
+      }
+      clearInterval( a );
+
+      fetchChartJSON().then(chart =&gt; {
+        console.debug(&#39;Plotting chart...&#39;)
+        window.Plotly.newPlot(&#39;chart-348216579&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+
+&lt;p&gt;You might also find the 
+ useful.&lt;/p&gt;
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &amp;lt;--&amp;gt; C2: Cool label
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+&lt;/div&gt;
+&lt;h2 id=&#34;data-frames&#34;&gt;Data Frames&lt;/h2&gt;
+&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table class=&#34;table-auto w-full&#34;&gt;
+  
+    
+    
+    &lt;thead&gt;
+      &lt;tr&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;customer_id&lt;/th&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;score&lt;/th&gt;  &lt;/tr&gt;
+    &lt;/thead&gt;
+  
+  &lt;tbody&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;2&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;text&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0.5&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;3&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+  &lt;/tbody&gt;
+  
+    &lt;caption class=&#34;table-caption&#34;&gt;Table 1: My results&lt;/caption&gt;
+  
+&lt;/table&gt;
+
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://yoricklambreghts.com/experience/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amphibian resistance to chytridiomycosis increases following low-virulence chytrid fungal infection or drug-mediated clearance</title>
+      <link>https://yoricklambreghts.com/publication/waddle2021/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/publication/waddle2021/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;Amphibian biodiversity is experiencing ongoing declines due in part to the infectious disease, chytridiomycosis. Efforts to mitigate the effects of the causal agent of chytridiomycosis, &lt;em&gt;Batrachochytrium dendrobatidis&lt;/em&gt; (&lt;em&gt;Bd&lt;/em&gt;), in the wild have not been wholly effective. Translocations are an important management tool for amphibians, and immunizations represent a possible strategy for preparing amphibians for release across a landscape where &lt;em&gt;Bd&lt;/em&gt; exists.&lt;/p&gt;
+&lt;p&gt;We evaluated the utility of using an isolate of &lt;em&gt;Bd&lt;/em&gt; that was shown to be hypovirulent to the relict leopard frog Rana onca as a transmissible inoculum for promoting chytridiomycosis resistance. We conducted a co-housing experiment to determine if the isolate we used could be passed between &lt;em&gt;R. onca&lt;/em&gt; without increasing in virulence. We then followed with an experiment where frogs that were exposed to the hypovirulent isolate were then challenged with a virulent &lt;em&gt;Bd&lt;/em&gt; isolate. In other experiments, we evaluated whether &lt;em&gt;Bd&lt;/em&gt; infections followed by clearance with itraconazole (an antifungal) could increase resistance to chytridiomycosis in &lt;em&gt;R. onca&lt;/em&gt; and &lt;em&gt;Rana pipiens&lt;/em&gt; (northern leopard frog).&lt;/p&gt;
+&lt;p&gt;We found that our hypovirulent &lt;em&gt;Bd&lt;/em&gt; inoculation was transmissible between hosts, did not cause chytridiomycosis and was effective at imparting long-term chytridiomycosis resistance. &lt;em&gt;Rana onca&lt;/em&gt; inoculated with the hypovirulent &lt;em&gt;Bd&lt;/em&gt; isolate had lower pathogen burdens and were 55 times more likely to survive infections by a virulent &lt;em&gt;Bd&lt;/em&gt; isolate than non-inoculated frogs.&lt;/p&gt;
+&lt;p&gt;For both species, prior exposure to &lt;em&gt;Bd&lt;/em&gt; followed by infection clearance with itraconazole resulted in significantly increased survivorship and lower pathogen burdens as compared to controls that had no prior &lt;em&gt;Bd&lt;/em&gt; exposure. &lt;em&gt;Rana onca&lt;/em&gt; that were previously exposed to &lt;em&gt;Bd&lt;/em&gt; were more than 15 times more likely to survive infections. Previously exposed &lt;em&gt;R. pipiens&lt;/em&gt; survived in higher proportions than controls, but with weaker statistical support.&lt;/p&gt;
+&lt;p&gt;Translocations are an important management tool for many amphibian conservation programs. For amphibian species that have experienced declines due to the disease chytridiomycosis [caused by the pathogen &lt;em&gt;Batrachochytrium dendrobatidis&lt;/em&gt; (&lt;em&gt;Bd&lt;/em&gt;)], the success of translocations may be limited due to the persistent threat of the disease in the wild. We completed a series of experiments aimed at increasing amphibian resistance to chytridiomycosis using low-virulence, transmissible &lt;em&gt;Bd&lt;/em&gt; inoculations and &lt;em&gt;Bd&lt;/em&gt; infection followed by clearance with an antifungal (itraconazole). Our low-virulence &lt;em&gt;Bd&lt;/em&gt; inoculations were transmissible, did not cause disease and provided long-term resistance against chytridiomycosis. Similarly, infection with &lt;em&gt;Bd&lt;/em&gt; and clearance with itraconazole led to increased resistance to chytridiomycosis in subsequent exposures. The use of a low-virulence &lt;em&gt;Bd&lt;/em&gt; inoculation could be further developed into a transmissible vaccine, propagating the protective benefits beyond individuals that can be directly inoculated. At this stage, we advise that using the alternative approach of infecting frogs with &lt;em&gt;Bd&lt;/em&gt; from translocation sites followed by clearance of infections with itraconazole may be sensible for increasing host resistance to chytridiomycosis.&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://yoricklambreghts.com/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://yoricklambreghts.com/post/2020-12-01-r-rmarkdown/</guid>
+      <description>&lt;h1 id=&#34;r-markdown&#34;&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see 
+.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;summary&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##      speed           dist       &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  Min.   : 4.0   Min.   :  2.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  1st Qu.:12.0   1st Qu.: 26.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  Median :15.0   Median : 36.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  Mean   :15.4   Mean   : 42.98  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  3rd Qu.:19.0   3rd Qu.: 56.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##  Max.   :25.0   Max.   :120.00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;lm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dist&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;~&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;speed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## Call:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## lm(formula = dist ~ speed, data = cars)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## Coefficients:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## (Intercept)        speed  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;##     -17.579        3.932&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;including-plots&#34;&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;par&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mar&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;pie&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;280&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;Sky&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;Sunny side of pyramid&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;Shady side of pyramid&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;col&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;#0292D8&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;#F7EA39&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;#C4B632&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;init.angle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;-50&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;border&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;NA&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://yoricklambreghts.com/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;Figure 1: A fancy pie chart.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nest defence behavioural reaction norms: testing life-history and parental investment theory predictions</title>
+      <link>https://yoricklambreghts.com/publication/thys2019/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/publication/thys2019/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;Predation is the primary source of reproductive failure in many avian taxa and nest defence behaviour against predators is hence an important aspect of parental investment. Nest defence is a complex trait that might consistently differ among individuals (personality), while simultaneously vary within individuals (plasticity) according to the reproductive value of the offspring. Both complementary aspects of individual variation can influence fitness, but the causality of links with reproductive success remains poorly understood. We repeatedly tested free-living female great tits (&lt;em&gt;Parus major&lt;/em&gt;) for nest defence (hissing) behaviour across the nesting cycle, by presenting them with a model predator. Hissing behaviour was highly repeatable but, despite population-level plasticity, we found no support for individual differences in plasticity. Path analysis revealed that repeatable differences in hissing behaviour had no direct effect on nest success or fledgling number. However, our best supported path-model showed that more fiercely hissing females laid smaller clutches, with clutch size in turn positively influencing fledgling number, suggesting that females are most likely facing a trade-off between investment in nest defence and reproduction. Strong stabilizing selection for optimal plasticity, in combination with life-history trade-offs, might explain the high repeatability of nest defence and its link with reproductive success.&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hunt or hide: How insularity and urbanization affect foraging decisions in lizards</title>
+      <link>https://yoricklambreghts.com/publication/demeester2018/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/publication/demeester2018/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;Foraging decisions should reflect a balance between costs and benefits of alternative strategies. Predation risk and resource availability in the environment may be crucial in deciding how cautious individuals should behave during foraging. These costs and benefits will vary in time and context, meaning that animals should be able to adjust their foraging behaviour to new or altered environments. Studying how animals do this is essential to understand their survival in these environments. In this study, we investigated the effect of both insularity and urbanization on risk-taking and neophobia during foraging in the Dalmatian wall lizard (&lt;em&gt;Podarcis melisellensis&lt;/em&gt;). Small islets tend to have both a lower number of predators and less resources. Therefore, islet populations were expected to show more risk-taking behaviour and less neophobia in a foraging context. Previous studies on behaviour of urban lizards have yielded inconsistent results, but due to a lack of both predators and arthropod prey in urban habitats, we expected urban lizards to also take more risks and behave less neophobic. We sampled several inhabited and uninhabited locations on Vis (Croatia) and surrounding islets. Risk-taking behaviour was tested by measuring the latency of lizards to feed in the presence of a predator model, and neophobia by measuring the latency to feed in the presence of a novel object. We found that islet lizards do indeed take more risks and were less vigilant, but not less neophobic. Urban and rural lizards did not differ in any of these behaviours, which is in sharp contrast with previous work on mammals and birds. The behavioural differences between islet and island lizards were novel, but not unexpected findings and are in line with the theory of “island tameness”. The effect of urbanization on the behaviour of animals seems to be more complex and might vary among taxa.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

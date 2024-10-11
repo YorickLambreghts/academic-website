@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | Yorick Lambreghts</title>
+    <link>https://yoricklambreghts.com/research/</link>
+      <atom:link href="https://yoricklambreghts.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yoricklambreghts.com/media/icon_hu10960734438886622341.png</url>
+      <title>Research</title>
+      <link>https://yoricklambreghts.com/research/</link>
+    </image>
+    
+    <item>
+      <title>Kin recognition and sociality</title>
+      <link>https://yoricklambreghts.com/research/kinrecognition/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://yoricklambreghts.com/research/kinrecognition/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Family living&lt;/strong&gt; is an important aspect of social behaviour in species throughout the animal kingdom. The organisation of family groups varies across species, from simple family life, such as that where offspring are tolerated on the parental territory, to highly complex family structures, such as that found in eusocial insects. This variation has captivated behavioural and evolutionary biologists for decades. As a result, there has been substantial work to explain how complex family organisation comes about in the first place. Family living initially arises when offspring forgo immediate dispersal, for instance due to ecological constraints (e.g., no available territories), and remain with one or both parents instead. Kin selection is thought to play an important role in this group formation through the inclusive fitness benefits provided by cooperating with related conspecifics. An implicit assumption to preferential cooperation with kin is that individuals recognise their relatives, a process called &lt;strong&gt;kin recognition&lt;/strong&gt;. Nevertheless, the precise relationship between kin recognition and the evolution of family organisation, as well as the factors that have influenced the emergence of kin ecognition itself, remain largely unknown.&lt;/p&gt;
+&lt;p&gt;During my PhD, I addressed this knowledge gap by investigating which factors could have influenced the early development of kin recognition and its links with family living. I started by leveraging the existing literature to outline the potential role that the prenatal environment plays in mediating the emergence of kin recognition preferences. I discuss the potential social environment in which embryos develop and illustrate how the close social associations of embryos can provide a foundation for early learning of kin characteristics for postnatal recognition. Various aspects of the developmental setting (e.g., clutch size, gestation period or intrauterine position) affect communication opportunities, and thus constrain or promote associations which could give rise to the development of kin recognition. Such effects are expected to be particularly pronounced in species with viviparous (live bearing) reproduction as opposed to oviparity (egg laying), where physical barriers constrain communication. To that end, I empirically tested how reproductive mode affects kin discrimination. I used the lizard species &lt;em&gt;Saiphos equalis&lt;/em&gt;, which exhibits intraspecific variation in reproductive mode, a trait rare amongst vertebrates. My results unexpectedly did not suggest any effect of reproductive mode on kin discrimination, for which I propose several potential explanations.&lt;/p&gt;
+&lt;p&gt;I then applied behavioural, chemical, and genetic analysis to uncover the relationship between kin recognition and complex sociality. For a model system leverage a group of Australian family-living skinks, collectively called the Egernia group, which exhibit high diversity in family structure, from largely solitary to communal living species. To achieve this, I first compared kin discrimination between Egernia group species with differing levels of social complexity: &lt;em&gt;Eulamprus quoyii&lt;/em&gt; (non-Egernia outgroup), &lt;em&gt;Liopholis whitii&lt;/em&gt;, and &lt;em&gt;Egernia saxatilis&lt;/em&gt;. I show that &lt;em&gt;E. saxatilis&lt;/em&gt; exhibits kin discrimination soon after birth, but no longer at four months of age. No kin discrimination was observed within either &lt;em&gt;L. whitii&lt;/em&gt; or &lt;em&gt;E. quoyii.&lt;/em&gt; I then conducted a detailed analysis of chemical compounds found in scats, which are known to be involved in communication, of five species: &lt;em&gt;E. quoyii&lt;/em&gt;, &lt;em&gt;L. whitii&lt;/em&gt;, &lt;em&gt;E. saxatilis&lt;/em&gt;, &lt;em&gt;Egernia cunninghami&lt;/em&gt;, and &lt;em&gt;Tiliqua rugosa&lt;/em&gt;. I found strong intraspecific differences in the chemical composition of scats. This variation in chemical composition showed putative links to variation in sociality; however, other factors such as diet, phylogeny or climate may also play a role. Finally, I utilised one species of Egernia, &lt;em&gt;L. whitii&lt;/em&gt;, to test the links between differences in the chemical structure between individuals and their pairwise relatedness. If scats provide kin cues, they are expected to contain genotypic signals. My results suggest a weak link between chemical and genotypic similarity between individuals, however, the strength of the signal conforms to that found in other systems.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-example-kin-recognition-trial-with-black-rock-skink-e-saxatilis-juvenile&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;E. saxatilis kin recognition trial&#34;
+           src=&#34;https://yoricklambreghts.com/research/kinrecognition/KR-trial.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Example kin recognition trial with black rock skink (&lt;em&gt;E. saxatilis&lt;/em&gt;) juvenile.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Combined, my results provide a valuable contribution to our understanding of the origin of kin recognition and the factors that may be involved in its evolution. My thesis highlights the potential of squamate reptiles, lizards in particular, for questions regarding social behaviour. Their variation in reproductive strategies and social complexity, both between and within species provide unique advantages that are lacking to varying degrees in mammals, birds or social insects&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;PhD_diagram.svg&#34; alt=&#34;PhD thesis diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;study-system&#34;&gt;Study system&lt;/h2&gt;
+&lt;h3 id=&#34;egernia-group&#34;&gt;Egernia group&lt;/h3&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;My biggest model system consists of a group of 60 species across seven Australian skink genera (&lt;em&gt;Egernia&lt;/em&gt;, &lt;em&gt;Liopholis&lt;/em&gt;, &lt;em&gt;Bellatorias&lt;/em&gt;, &lt;em&gt;Lissolepis&lt;/em&gt;, &lt;em&gt;Tiliqua&lt;/em&gt;, &lt;em&gt;Cyclodomorphus&lt;/em&gt; and &lt;em&gt;Corucia&lt;/em&gt;) collectively referred to as the Egernia group or Egerniinae. The group separates itself from most other lizards with its high variation in complexity of social structures. While most lizards are solitary, species of the Egernia group display a wide variation in social structures from solitary (e.g., &lt;em&gt;Tiliqua rugosa&lt;/em&gt;) all the way to species living in large communal groups (e.g., &lt;em&gt;Egernia cunninghami&lt;/em&gt;) and everything in between. This variation makes them an excellent system to investigate the initial evolution of sociality and related behaviour, such as kin recognition.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-egernia-model-system&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Egernia species&#34; srcset=&#34;
+               /research/kinrecognition/phd-egernia-collage_hu8435001949810093236.webp 400w,
+               /research/kinrecognition/phd-egernia-collage_hu6052362238660559771.webp 760w,
+               /research/kinrecognition/phd-egernia-collage_hu5120691759385362937.webp 1200w&#34;
+               src=&#34;https://yoricklambreghts.com/research/kinrecognition/phd-egernia-collage_hu8435001949810093236.webp&#34;
+               width=&#34;754&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Egernia model system.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;saiphos&#34;&gt;Saiphos&lt;/h3&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;My second model system consists of the Australian skink &lt;em&gt;Saiphos equalis&lt;/em&gt; or three-toed skink. These skinks have an unusual fossorial (i.e., have a burrowing lifestyle) and nocturnal ecology. However, it is not their lifestyle that makes them so interesting from a kin recognition perspective, but its unique mode of reproduction. &lt;em&gt;Saiphos&lt;/em&gt; is one of ~eight lizard species with well-documented bimodal reproduction, which means that females of some populations (typically lower elevation) lay eggs (oviparity), while females from other populations (higher elevations) give birth to live young (viviparity). In reality the distinction is not black and white and individuals can be positioned along a continuum from ‘true’ egg laying to ‘true’ live bearing. This is in contrast to the vast majority of vertebrates in which the entire species either gives birth to live young or lays eggs. Their unique trait makes &lt;em&gt;S. equalis&lt;/em&gt; ideal to answer specific questions regarding the influence of reproductive mode on different traits, such as kin recognition. They allow for intraspecific methods to be used without many of the confounding factors that are inevitable when using interspecific methods.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-comparison-of-saiphos-equalis-eggs-left-semi-calcified-egg-from-transitional-in-between-egg-laying-and-live-bearing-sydney-population-right-juvenile-in-egg-consisting-of-non-calcified-membrane-from-live-bearing-population-from-mount-mackenzie-nature-reserve-northern-nsw&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Saiphos egg comparison photo&#34; srcset=&#34;
+               /research/kinrecognition/saiphos_egg_comparison_hu11543561081575693370.webp 400w,
+               /research/kinrecognition/saiphos_egg_comparison_hu583090517588820456.webp 760w,
+               /research/kinrecognition/saiphos_egg_comparison_hu1504578427509574145.webp 1200w&#34;
+               src=&#34;https://yoricklambreghts.com/research/kinrecognition/saiphos_egg_comparison_hu11543561081575693370.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Comparison of &lt;em&gt;Saiphos equalis&lt;/em&gt; eggs. Left: semi-calcified egg from transitional (in between egg-laying and live-bearing) Sydney population. Right: juvenile in &amp;quot;egg&amp;quot; consisting of non-calcified membrane from live bearing population from Mount Mackenzie Nature Reserve (Northern NSW).
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
