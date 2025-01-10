@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sharks | Yorick Lambreghts</title>
-    <link>https://yoricklambreghts.com/tags/sharks/</link>
-      <atom:link href="https://yoricklambreghts.com/tags/sharks/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4321/tags/sharks/</link>
+      <atom:link href="http://localhost:4321/tags/sharks/index.xml" rel="self" type="application/rss+xml" />
     <description>Sharks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yoricklambreghts.com/media/icon_hu10960734438886622341.png</url>
+      <url>http://localhost:4321/media/icon_hu10960734438886622341.png</url>
       <title>Sharks</title>
-      <link>https://yoricklambreghts.com/tags/sharks/</link>
+      <link>http://localhost:4321/tags/sharks/</link>
     </image>
     
     <item>
       <title>Predicting whaler shark presence and interactions with humans in southern Queensland, Australia</title>
-      <link>https://yoricklambreghts.com/publication/lopes2024/</link>
+      <link>http://localhost:4321/publication/lopes2024/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/publication/lopes2024/</guid>
+      <guid>http://localhost:4321/publication/lopes2024/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;The Queensland Shark Control Program (QSCP) started in 1962 to reduce the number of shark-human incidents by deploying nets and drumlines across the most popular beaches. The program targets large shark species (white, tiger and bull sharks) that are potentially hazardous to bathers. However, this strategy is lethal for other sharks and marine wildlife, including threatened and endangered species. Thus, finding non-lethal strategies is a priority. To better manage shark-human interactions, establishing a better understanding of the factors that drive shark movement is key. Here we used sea surface temperature (SST), rainfall and distance to rivers as environmental variables to predict the presence of whaler sharks in southern Queensland based on 26 years of catch data from the QSCP. We found that SST is positively corelated to sharks caught by drumlines, while rainfall was associated with the number of sharks captured in shark nets. In addition, more sharks were captured by nets and drumlines further away from rivers, and nets captured roughly 10 times more sharks than drumlines over the period of study. In contrast to tiger sharks, the catch data indicate the number of whalers has not declined over the past 26 years. Our findings suggest that environmental variables can be used to predict the movement of large sharks and by incorporating this knowledge into management plans and public education programs, may ultimately reduce shark-human incidents.&lt;/p&gt;
 &lt;/div&gt;</description>

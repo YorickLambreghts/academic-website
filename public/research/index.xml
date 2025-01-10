@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research | Yorick Lambreghts</title>
-    <link>https://yoricklambreghts.com/research/</link>
-      <atom:link href="https://yoricklambreghts.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4321/research/</link>
+      <atom:link href="http://localhost:4321/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yoricklambreghts.com/media/icon_hu10960734438886622341.png</url>
+      <url>http://localhost:4321/media/icon_hu10960734438886622341.png</url>
       <title>Research</title>
-      <link>https://yoricklambreghts.com/research/</link>
+      <link>http://localhost:4321/research/</link>
     </image>
     
     <item>
       <title>Kin recognition and sociality</title>
-      <link>https://yoricklambreghts.com/research/kinrecognition/</link>
+      <link>http://localhost:4321/research/kinrecognition/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/research/kinrecognition/</guid>
+      <guid>http://localhost:4321/research/kinrecognition/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Family living&lt;/strong&gt; is an important aspect of social behaviour in species throughout the animal kingdom. The organisation of family groups varies across species, from simple family life, such as that where offspring are tolerated on the parental territory, to highly complex family structures, such as that found in eusocial insects. This variation has captivated behavioural and evolutionary biologists for decades. As a result, there has been substantial work to explain how complex family organisation comes about in the first place. Family living initially arises when offspring forgo immediate dispersal, for instance due to ecological constraints (e.g., no available territories), and remain with one or both parents instead. Kin selection is thought to play an important role in this group formation through the inclusive fitness benefits provided by cooperating with related conspecifics. An implicit assumption to preferential cooperation with kin is that individuals recognise their relatives, a process called &lt;strong&gt;kin recognition&lt;/strong&gt;. Nevertheless, the precise relationship between kin recognition and the evolution of family organisation, as well as the factors that have influenced the emergence of kin ecognition itself, remain largely unknown.&lt;/p&gt;
@@ -41,7 +41,7 @@
 &lt;figure  id=&#34;figure-example-kin-recognition-trial-with-black-rock-skink-e-saxatilis-juvenile&#34;&gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;E. saxatilis kin recognition trial&#34;
-           src=&#34;https://yoricklambreghts.com/research/kinrecognition/KR-trial.gif&#34;
+           src=&#34;http://localhost:4321/research/kinrecognition/KR-trial.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Example kin recognition trial with black rock skink (&lt;em&gt;E. saxatilis&lt;/em&gt;) juvenile.
@@ -96,7 +96,7 @@
                /research/kinrecognition/phd-egernia-collage_hu17854524716034146843.webp 400w,
                /research/kinrecognition/phd-egernia-collage_hu3619791255479508003.webp 760w,
                /research/kinrecognition/phd-egernia-collage_hu5120691759385362937.webp 1200w&#34;
-               src=&#34;https://yoricklambreghts.com/research/kinrecognition/phd-egernia-collage_hu17854524716034146843.webp&#34;
+               src=&#34;http://localhost:4321/research/kinrecognition/phd-egernia-collage_hu17854524716034146843.webp&#34;
                width=&#34;754&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -130,7 +130,7 @@
                /research/kinrecognition/saiphos_egg_comparison_hu16612136577206083571.webp 400w,
                /research/kinrecognition/saiphos_egg_comparison_hu1280025481799973234.webp 760w,
                /research/kinrecognition/saiphos_egg_comparison_hu1504578427509574145.webp 1200w&#34;
-               src=&#34;https://yoricklambreghts.com/research/kinrecognition/saiphos_egg_comparison_hu16612136577206083571.webp&#34;
+               src=&#34;http://localhost:4321/research/kinrecognition/saiphos_egg_comparison_hu16612136577206083571.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -138,6 +138,18 @@
       Comparison of &lt;em&gt;Saiphos equalis&lt;/em&gt; eggs. Left: semi-calcified egg from transitional (in between egg-laying and live-bearing) Sydney population. Right: juvenile in &amp;quot;egg&amp;quot; consisting of non-calcified membrane from live bearing population from Mount Mackenzie Nature Reserve (Northern NSW).
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CRISPR-Cas9 in lizards</title>
+      <link>http://localhost:4321/research/crispr-lizards/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/research/crispr-lizards/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;[Under construction]&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

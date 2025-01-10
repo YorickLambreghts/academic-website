@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yorick Lambreghts</title>
-    <link>https://yoricklambreghts.com/</link>
-      <atom:link href="https://yoricklambreghts.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4321/</link>
+      <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <description>Yorick Lambreghts</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yoricklambreghts.com/media/icon_hu10960734438886622341.png</url>
+      <url>http://localhost:4321/media/icon_hu10960734438886622341.png</url>
       <title>Yorick Lambreghts</title>
-      <link>https://yoricklambreghts.com/</link>
+      <link>http://localhost:4321/</link>
     </image>
     
     <item>
       <title>Predicting whaler shark presence and interactions with humans in southern Queensland, Australia</title>
-      <link>https://yoricklambreghts.com/publication/lopes2024/</link>
+      <link>http://localhost:4321/publication/lopes2024/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/publication/lopes2024/</guid>
+      <guid>http://localhost:4321/publication/lopes2024/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;The Queensland Shark Control Program (QSCP) started in 1962 to reduce the number of shark-human incidents by deploying nets and drumlines across the most popular beaches. The program targets large shark species (white, tiger and bull sharks) that are potentially hazardous to bathers. However, this strategy is lethal for other sharks and marine wildlife, including threatened and endangered species. Thus, finding non-lethal strategies is a priority. To better manage shark-human interactions, establishing a better understanding of the factors that drive shark movement is key. Here we used sea surface temperature (SST), rainfall and distance to rivers as environmental variables to predict the presence of whaler sharks in southern Queensland based on 26 years of catch data from the QSCP. We found that SST is positively corelated to sharks caught by drumlines, while rainfall was associated with the number of sharks captured in shark nets. In addition, more sharks were captured by nets and drumlines further away from rivers, and nets captured roughly 10 times more sharks than drumlines over the period of study. In contrast to tiger sharks, the catch data indicate the number of whalers has not declined over the past 26 years. Our findings suggest that environmental variables can be used to predict the movement of large sharks and by incorporating this knowledge into management plans and public education programs, may ultimately reduce shark-human incidents.&lt;/p&gt;
 &lt;/div&gt;</description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>Hotspot shelters stimulate frog resistance to chytridiomycosis</title>
-      <link>https://yoricklambreghts.com/publication/waddle2024/</link>
+      <link>http://localhost:4321/publication/waddle2024/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/publication/waddle2024/</guid>
+      <guid>http://localhost:4321/publication/waddle2024/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 Many threats to biodiversity cannot be eliminated; for example, invasive pathogens may be ubiquitous. Chytridiomycosis is a fungal disease that has spread worldwide, driving at least 90 amphibian species to extinction, and severely affecting hundreds of others. Once the disease spreads to a new environment, it is likely to become a permanent part of that ecosystem. To enable coexistence with chytridiomycosis in the field, we devised an intervention that exploits host defences and pathogen vulnerabilities. Here we show that sunlight-heated artificial refugia attract endangered frogs and enable body temperatures high enough to clear infections, and that having recovered in this way, frogs are subsequently resistant to chytridiomycosis even under cool conditions that are optimal for fungal growth. Our results provide a simple, inexpensive and widely applicable strategy to buffer frogs against chytridiomycosis in nature. The refugia are immediately useful for the endangered species we tested and will have broader utility for amphibian species with similar ecologies. Furthermore, our concept could be applied to other wildlife diseases in which differences in host and pathogen physiologies can be exploited. The refugia are made from cheap and readily available materials and therefore could be rapidly adopted by wildlife managers and the public. In summary, habitat protection alone cannot protect species that are affected by invasive diseases, but simple manipulations to microhabitat structure could spell the difference between the extinction and the persistence of endangered amphibians.
 &lt;/div&gt;</description>
@@ -34,9 +34,9 @@ Many threats to biodiversity cannot be eliminated; for example, invasive pathoge
     
     <item>
       <title>Kin recognition and sociality</title>
-      <link>https://yoricklambreghts.com/research/kinrecognition/</link>
+      <link>http://localhost:4321/research/kinrecognition/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/research/kinrecognition/</guid>
+      <guid>http://localhost:4321/research/kinrecognition/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Family living&lt;/strong&gt; is an important aspect of social behaviour in species throughout the animal kingdom. The organisation of family groups varies across species, from simple family life, such as that where offspring are tolerated on the parental territory, to highly complex family structures, such as that found in eusocial insects. This variation has captivated behavioural and evolutionary biologists for decades. As a result, there has been substantial work to explain how complex family organisation comes about in the first place. Family living initially arises when offspring forgo immediate dispersal, for instance due to ecological constraints (e.g., no available territories), and remain with one or both parents instead. Kin selection is thought to play an important role in this group formation through the inclusive fitness benefits provided by cooperating with related conspecifics. An implicit assumption to preferential cooperation with kin is that individuals recognise their relatives, a process called &lt;strong&gt;kin recognition&lt;/strong&gt;. Nevertheless, the precise relationship between kin recognition and the evolution of family organisation, as well as the factors that have influenced the emergence of kin ecognition itself, remain largely unknown.&lt;/p&gt;
@@ -61,7 +61,7 @@ Many threats to biodiversity cannot be eliminated; for example, invasive pathoge
 &lt;figure  id=&#34;figure-example-kin-recognition-trial-with-black-rock-skink-e-saxatilis-juvenile&#34;&gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;E. saxatilis kin recognition trial&#34;
-           src=&#34;https://yoricklambreghts.com/research/kinrecognition/KR-trial.gif&#34;
+           src=&#34;http://localhost:4321/research/kinrecognition/KR-trial.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Example kin recognition trial with black rock skink (&lt;em&gt;E. saxatilis&lt;/em&gt;) juvenile.
@@ -116,7 +116,7 @@ Many threats to biodiversity cannot be eliminated; for example, invasive pathoge
                /research/kinrecognition/phd-egernia-collage_hu17854524716034146843.webp 400w,
                /research/kinrecognition/phd-egernia-collage_hu3619791255479508003.webp 760w,
                /research/kinrecognition/phd-egernia-collage_hu5120691759385362937.webp 1200w&#34;
-               src=&#34;https://yoricklambreghts.com/research/kinrecognition/phd-egernia-collage_hu17854524716034146843.webp&#34;
+               src=&#34;http://localhost:4321/research/kinrecognition/phd-egernia-collage_hu17854524716034146843.webp&#34;
                width=&#34;754&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -150,7 +150,7 @@ Many threats to biodiversity cannot be eliminated; for example, invasive pathoge
                /research/kinrecognition/saiphos_egg_comparison_hu16612136577206083571.webp 400w,
                /research/kinrecognition/saiphos_egg_comparison_hu1280025481799973234.webp 760w,
                /research/kinrecognition/saiphos_egg_comparison_hu1504578427509574145.webp 1200w&#34;
-               src=&#34;https://yoricklambreghts.com/research/kinrecognition/saiphos_egg_comparison_hu16612136577206083571.webp&#34;
+               src=&#34;http://localhost:4321/research/kinrecognition/saiphos_egg_comparison_hu16612136577206083571.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -163,10 +163,30 @@ Many threats to biodiversity cannot be eliminated; for example, invasive pathoge
     </item>
     
     <item>
+      <title>CRISPR-Cas9 in lizards</title>
+      <link>http://localhost:4321/research/crispr-lizards/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/research/crispr-lizards/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;[Under construction]&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:4321/experience/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Amphibian resistance to chytridiomycosis increases following low-virulence chytrid fungal infection or drug-mediated clearance</title>
-      <link>https://yoricklambreghts.com/publication/waddle2021/</link>
+      <link>http://localhost:4321/publication/waddle2021/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/publication/waddle2021/</guid>
+      <guid>http://localhost:4321/publication/waddle2021/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;Amphibian biodiversity is experiencing ongoing declines due in part to the infectious disease, chytridiomycosis. Efforts to mitigate the effects of the causal agent of chytridiomycosis, &lt;em&gt;Batrachochytrium dendrobatidis&lt;/em&gt; (&lt;em&gt;Bd&lt;/em&gt;), in the wild have not been wholly effective. Translocations are an important management tool for amphibians, and immunizations represent a possible strategy for preparing amphibians for release across a landscape where &lt;em&gt;Bd&lt;/em&gt; exists.&lt;/p&gt;
 &lt;p&gt;We evaluated the utility of using an isolate of &lt;em&gt;Bd&lt;/em&gt; that was shown to be hypovirulent to the relict leopard frog Rana onca as a transmissible inoculum for promoting chytridiomycosis resistance. We conducted a co-housing experiment to determine if the isolate we used could be passed between &lt;em&gt;R. onca&lt;/em&gt; without increasing in virulence. We then followed with an experiment where frogs that were exposed to the hypovirulent isolate were then challenged with a virulent &lt;em&gt;Bd&lt;/em&gt; isolate. In other experiments, we evaluated whether &lt;em&gt;Bd&lt;/em&gt; infections followed by clearance with itraconazole (an antifungal) could increase resistance to chytridiomycosis in &lt;em&gt;R. onca&lt;/em&gt; and &lt;em&gt;Rana pipiens&lt;/em&gt; (northern leopard frog).&lt;/p&gt;
@@ -178,9 +198,9 @@ Many threats to biodiversity cannot be eliminated; for example, invasive pathoge
     
     <item>
       <title>Nest defence behavioural reaction norms: testing life-history and parental investment theory predictions</title>
-      <link>https://yoricklambreghts.com/publication/thys2019/</link>
+      <link>http://localhost:4321/publication/thys2019/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/publication/thys2019/</guid>
+      <guid>http://localhost:4321/publication/thys2019/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;Predation is the primary source of reproductive failure in many avian taxa and nest defence behaviour against predators is hence an important aspect of parental investment. Nest defence is a complex trait that might consistently differ among individuals (personality), while simultaneously vary within individuals (plasticity) according to the reproductive value of the offspring. Both complementary aspects of individual variation can influence fitness, but the causality of links with reproductive success remains poorly understood. We repeatedly tested free-living female great tits (&lt;em&gt;Parus major&lt;/em&gt;) for nest defence (hissing) behaviour across the nesting cycle, by presenting them with a model predator. Hissing behaviour was highly repeatable but, despite population-level plasticity, we found no support for individual differences in plasticity. Path analysis revealed that repeatable differences in hissing behaviour had no direct effect on nest success or fledgling number. However, our best supported path-model showed that more fiercely hissing females laid smaller clutches, with clutch size in turn positively influencing fledgling number, suggesting that females are most likely facing a trade-off between investment in nest defence and reproduction. Strong stabilizing selection for optimal plasticity, in combination with life-history trade-offs, might explain the high repeatability of nest defence and its link with reproductive success.&lt;/p&gt;
 &lt;/div&gt;</description>
@@ -188,9 +208,9 @@ Many threats to biodiversity cannot be eliminated; for example, invasive pathoge
     
     <item>
       <title>Hunt or hide: How insularity and urbanization affect foraging decisions in lizards</title>
-      <link>https://yoricklambreghts.com/publication/demeester2018/</link>
+      <link>http://localhost:4321/publication/demeester2018/</link>
       <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/publication/demeester2018/</guid>
+      <guid>http://localhost:4321/publication/demeester2018/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;Foraging decisions should reflect a balance between costs and benefits of alternative strategies. Predation risk and resource availability in the environment may be crucial in deciding how cautious individuals should behave during foraging. These costs and benefits will vary in time and context, meaning that animals should be able to adjust their foraging behaviour to new or altered environments. Studying how animals do this is essential to understand their survival in these environments. In this study, we investigated the effect of both insularity and urbanization on risk-taking and neophobia during foraging in the Dalmatian wall lizard (&lt;em&gt;Podarcis melisellensis&lt;/em&gt;). Small islets tend to have both a lower number of predators and less resources. Therefore, islet populations were expected to show more risk-taking behaviour and less neophobia in a foraging context. Previous studies on behaviour of urban lizards have yielded inconsistent results, but due to a lack of both predators and arthropod prey in urban habitats, we expected urban lizards to also take more risks and behave less neophobic. We sampled several inhabited and uninhabited locations on Vis (Croatia) and surrounding islets. Risk-taking behaviour was tested by measuring the latency of lizards to feed in the presence of a predator model, and neophobia by measuring the latency to feed in the presence of a novel object. We found that islet lizards do indeed take more risks and were less vigilant, but not less neophobic. Urban and rural lizards did not differ in any of these behaviours, which is in sharp contrast with previous work on mammals and birds. The behavioural differences between islet and island lizards were novel, but not unexpected findings and are in line with the theory of “island tameness”. The effect of urbanization on the behaviour of animals seems to be more complex and might vary among taxa.&lt;/p&gt;
 &lt;/div&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Animal Personality | Yorick Lambreghts</title>
-    <link>https://yoricklambreghts.com/tags/animal-personality/</link>
-      <atom:link href="https://yoricklambreghts.com/tags/animal-personality/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4321/tags/animal-personality/</link>
+      <atom:link href="http://localhost:4321/tags/animal-personality/index.xml" rel="self" type="application/rss+xml" />
     <description>Animal Personality</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yoricklambreghts.com/media/icon_hu10960734438886622341.png</url>
+      <url>http://localhost:4321/media/icon_hu10960734438886622341.png</url>
       <title>Animal Personality</title>
-      <link>https://yoricklambreghts.com/tags/animal-personality/</link>
+      <link>http://localhost:4321/tags/animal-personality/</link>
     </image>
     
     <item>
       <title>Nest defence behavioural reaction norms: testing life-history and parental investment theory predictions</title>
-      <link>https://yoricklambreghts.com/publication/thys2019/</link>
+      <link>http://localhost:4321/publication/thys2019/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://yoricklambreghts.com/publication/thys2019/</guid>
+      <guid>http://localhost:4321/publication/thys2019/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;Predation is the primary source of reproductive failure in many avian taxa and nest defence behaviour against predators is hence an important aspect of parental investment. Nest defence is a complex trait that might consistently differ among individuals (personality), while simultaneously vary within individuals (plasticity) according to the reproductive value of the offspring. Both complementary aspects of individual variation can influence fitness, but the causality of links with reproductive success remains poorly understood. We repeatedly tested free-living female great tits (&lt;em&gt;Parus major&lt;/em&gt;) for nest defence (hissing) behaviour across the nesting cycle, by presenting them with a model predator. Hissing behaviour was highly repeatable but, despite population-level plasticity, we found no support for individual differences in plasticity. Path analysis revealed that repeatable differences in hissing behaviour had no direct effect on nest success or fledgling number. However, our best supported path-model showed that more fiercely hissing females laid smaller clutches, with clutch size in turn positively influencing fledgling number, suggesting that females are most likely facing a trade-off between investment in nest defence and reproduction. Strong stabilizing selection for optimal plasticity, in combination with life-history trade-offs, might explain the high repeatability of nest defence and its link with reproductive success.&lt;/p&gt;
 &lt;/div&gt;</description>

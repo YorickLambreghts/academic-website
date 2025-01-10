@@ -2,79 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yoricklambreghts.com/publication_types/article-journal/</loc>
+    <loc>http://localhost:4321/publication_types/article-journal/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/publication/lopes2024/</loc>
+    <loc>http://localhost:4321/publication/lopes2024/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/publication_types/</loc>
+    <loc>http://localhost:4321/publication_types/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/tags/sharks/</loc>
+    <loc>http://localhost:4321/tags/sharks/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/tags/</loc>
+    <loc>http://localhost:4321/tags/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/tags/chytrid/</loc>
+    <loc>http://localhost:4321/tags/chytrid/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/tags/frogs/</loc>
+    <loc>http://localhost:4321/tags/frogs/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/publication/waddle2024/</loc>
+    <loc>http://localhost:4321/publication/waddle2024/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/research/kinrecognition/</loc>
+    <loc>http://localhost:4321/research/kinrecognition/</loc>
     <lastmod>2024-06-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/tags/lizards/</loc>
+    <loc>http://localhost:4321/tags/lizards/</loc>
     <lastmod>2024-06-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/tags/phd/</loc>
+    <loc>http://localhost:4321/tags/phd/</loc>
     <lastmod>2024-06-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/research/</loc>
+    <loc>http://localhost:4321/research/</loc>
     <lastmod>2024-06-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/publication/</loc>
+    <loc>http://localhost:4321/publication/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/</loc>
+    <loc>http://localhost:4321/research/crispr-lizards/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/experience/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/publication/waddle2021/</loc>
+    <loc>http://localhost:4321/publication/waddle2021/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/tags/animal-personality/</loc>
+    <loc>http://localhost:4321/tags/animal-personality/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/tags/birds/</loc>
+    <loc>http://localhost:4321/tags/birds/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/publication/thys2019/</loc>
+    <loc>http://localhost:4321/publication/thys2019/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://yoricklambreghts.com/publication/demeester2018/</loc>
+    <loc>http://localhost:4321/publication/demeester2018/</loc>
     <lastmod>2018-01-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
