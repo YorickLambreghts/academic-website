@@ -130,7 +130,7 @@ In collaboration with [Prof. Martin Whiting](https://whitinglab.com/people/marti
 Once gene editing techniques have successfully been established, they will open the door for a whole suit of new opportunities for research on virtually every aspect of Australian reptile biology.
 
 During my PhD, I focussed on kin recognition itself, its importance in the early evolution of sociality and how it was refined as social systems became increasingly complex. 
-While I was based at the [University of Tasmania](https://www.utas.edu.au/) in Hobart ([BEER group](https://beergrouputas.wordpress.com/)), my field and experimental work takes place at [Macquarie University](https://www.mq.edu.au/) in Sydney ([Lizardlab](https://whitinglab.com/)). 
+While I was based at the [University of Tasmania](https://www.utas.edu.au/) in Hobart ([BEER group](https://beergrouputas.wordpress.com/)), my field and experimental work took place at [Macquarie University](https://www.mq.edu.au/) in Sydney ([Lizardlab](https://whitinglab.com/)). 
 
 Before moving to Australia I completed both my Master's and Bachelor's at the [University of Antwerp](https://www.uantwerpen.be/en/) in Belgium. During this time I studied animal personalities in birds for my Master's thesis and took part in a project on urbanisation and island effects in lizards.
 
