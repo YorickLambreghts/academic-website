@@ -127,10 +127,11 @@ title: Yorick Lambreghts
 
 My research focuses on the evolution of sociality in lizards with a particular interest in the role of kin recognition. 
 In collaboration with [Prof. Martin Whiting](https://whitinglab.com/people/martin-whiting/) and [Dr Oliver Griffith](https://www.oligriffith.com/dr-oliver-griffith), I am currently working at [Macquarie University](https://www.mq.edu.au/) in Sydney on a method to make modifications to the genome of Australian lizards using state-of-the-art techniques such as CRISPR-Cas9.
-Once gene editing techniques have successfully been established, they will open the door for a whole suit of new opportunities for research on virtually every aspect of Australian reptile biology.
+Once gene editing techniques have successfully been established, they will open the door for a whole suit of new opportunities for research on social evolution/recognition, as well as virtually every other aspect of Australian reptile biology.
 
 During my PhD, I focussed on kin recognition itself, its importance in the early evolution of sociality and how it was refined as social systems became increasingly complex. 
 While I was based at the [University of Tasmania](https://www.utas.edu.au/) in Hobart ([BEER group](https://beergrouputas.wordpress.com/)), my field and experimental work took place at [Macquarie University](https://www.mq.edu.au/) in Sydney ([Lizardlab](https://whitinglab.com/)). 
+I am currently working on getting this work published!
 
 Before moving to Australia I completed both my Master's and Bachelor's at the [University of Antwerp](https://www.uantwerpen.be/en/) in Belgium. During this time I studied animal personalities in birds for my Master's thesis and took part in a project on urbanisation and island effects in lizards.
 
