@@ -26,7 +26,7 @@ I then applied behavioural, chemical, and genetic analysis to uncover the relati
 ![E. saxatilis kin recognition trial](KR-trial.gif "Example kin recognition trial with black rock skink (*E. saxatilis*) juvenile.")
 
 
-Combined, my results provide a valuable contribution to our understanding of the origin of kin recognition and the factors that may be involved in its evolution. My thesis highlights the potential of squamate reptiles, lizards in particular, for questions regarding social behaviour. Their variation in reproductive strategies and social complexity, both between and within species provide unique advantages that are lacking to varying degrees in mammals, birds or social insects
+Combined, my results provide a valuable contribution to our understanding of the origin of kin recognition and the factors that may be involved in its evolution. My thesis highlights the potential of lizards for questions regarding social behaviour. Their variation in reproductive strategies and social complexity, both between and within species provide unique advantages that are lacking to varying degrees in mammals, birds or social insects
 
 
 ![PhD thesis diagram](PhD-diagram.svg "PhD structure diagram. Numbers refer to thesis chapters.")

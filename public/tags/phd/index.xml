@@ -47,7 +47,7 @@
       Example kin recognition trial with black rock skink (&lt;em&gt;E. saxatilis&lt;/em&gt;) juvenile.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;Combined, my results provide a valuable contribution to our understanding of the origin of kin recognition and the factors that may be involved in its evolution. My thesis highlights the potential of squamate reptiles, lizards in particular, for questions regarding social behaviour. Their variation in reproductive strategies and social complexity, both between and within species provide unique advantages that are lacking to varying degrees in mammals, birds or social insects&lt;/p&gt;
+&lt;p&gt;Combined, my results provide a valuable contribution to our understanding of the origin of kin recognition and the factors that may be involved in its evolution. My thesis highlights the potential of lizards for questions regarding social behaviour. Their variation in reproductive strategies and social complexity, both between and within species provide unique advantages that are lacking to varying degrees in mammals, birds or social insects&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -64,10 +64,14 @@
 
 
 
-&lt;figure  &gt;
+&lt;figure  id=&#34;figure-phd-structure-diagram-numbers-refer-to-thesis-chapters&#34;&gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;PhD_diagram.svg&#34; alt=&#34;PhD thesis diagram&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;PhD thesis diagram&#34;
+           src=&#34;http://localhost:4321/research/kinrecognition/PhD-diagram.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      PhD structure diagram. Numbers refer to thesis chapters.
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;study-system&#34;&gt;Study system&lt;/h2&gt;

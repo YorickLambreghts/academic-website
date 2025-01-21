@@ -51,6 +51,8 @@ profiles:
   url: mailto:yorick.lambreghts@mq.edu.au
 - icon: brands/x
   url: https://twitter.com/LambreghtsY
+- icon: custom/bluesky
+  url: https://bsky.app/profile/yoricklambreghts.com
 - icon: brands/github
   label: GitHub
   url: https://github.com/YorickLambreghts
