@@ -2,7 +2,7 @@
 date: "2023-10-24"
 math: false
 summary: 
-draft: true
+draft: false
 title: Field work
 type: docs
 ---
