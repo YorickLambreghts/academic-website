@@ -8,11 +8,14 @@ main:
     url: /#aboutme
     weight: 10
   - name: Research
-    url: research/
+    url: /research
     weight: 20
   - name: Publications
     url: /publication
     weight: 21
+  - name: Photography
+    url: /photography
+    weight: 30
   # - name: Talks
   #   url: /#talks
   #   weight: 22
