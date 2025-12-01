@@ -33,6 +33,7 @@ interests:
 - Behavioural Ecology
 - Evolutionary Biology
 - Herpetology
+- Photography
 languages:
 - name: Dutch
   percent: 100
