@@ -23,6 +23,7 @@ sections:
       folders:
       - publication
     title: Peer-reviewed Publications
+    count: 6
   design:
     columns: 2
     view: citation
