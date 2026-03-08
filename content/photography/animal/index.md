@@ -1,18 +1,13 @@
 ---
 date: "2023-10-24"
 math: false
-summary: 
 draft: false
 title: Animals
-type: docs
+description: Some of the amazing animals that crossed my path.
+type: docs # this prevents featured image from showing on top of the page
 ---
 
-<div>
 
-
-
-
-</div>
 
 
 {{< gallery 

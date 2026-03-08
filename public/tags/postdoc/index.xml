@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postdoc | Yorick Lambreghts: Academic Website</title>
+    <link>http://localhost:1313/tags/postdoc/</link>
+      <atom:link href="http://localhost:1313/tags/postdoc/index.xml" rel="self" type="application/rss+xml" />
+    <description>Postdoc</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_34f4679625e60a1a.png</url>
+      <title>Postdoc</title>
+      <link>http://localhost:1313/tags/postdoc/</link>
+    </image>
+    
+    <item>
+      <title>Genetic Modifications in Lizards</title>
+      <link>http://localhost:1313/research/gene-editing/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/gene-editing/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;Being able to make changes to the genetic code of animals provides incredibly powerful and targetted studies of all sorts of traits and behaviours. With the aim of using gene-editing techniques in studying the evolution of sociality in lizards, Dr Oliver Griffith and I set out to develop a method to turn-off (called &amp;lsquo;knocking-out&amp;rsquo;) certain genes in live-bearing Australian lizards using CRISPR-Cas9.&lt;/p&gt;
+&lt;p&gt;To genetically modify any organism, researchers target the reproductive cells (sperm or egg) or early single-cell embryos so that the genetic change is transferred through every subsequent cell division. In lizards, fertilisation occurs internally, which makes it difficult to reach these cells inside the body. Fortunately for us, a surgical technique was recently developed in the United States that allows modifying immature egg cells in egg-laying anoles prior to fertilisation.&lt;/p&gt;
+&lt;p&gt;We adapted this technique for Australian lizards and first tested it in two egg-laying species: the delicate skink (&lt;em&gt;Lampropholis delicata&lt;/em&gt;) and the Asian house gecko (&lt;em&gt;Hemidactylus frenatus&lt;/em&gt;). Using this approach, we successfully knocked-out the tyrosinase gene – which controls skin pigmentation – in geckos. This resulted in a fully albino individual, demonstrating that targeted gene editing is now feasible in this species. Additional species will hopefully follow soon.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

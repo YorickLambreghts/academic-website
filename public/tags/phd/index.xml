@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PhD | Yorick Lambreghts</title>
-    <link>http://localhost:4321/tags/phd/</link>
-      <atom:link href="http://localhost:4321/tags/phd/index.xml" rel="self" type="application/rss+xml" />
+    <title>PhD | Yorick Lambreghts: Academic Website</title>
+    <link>http://localhost:1313/tags/phd/</link>
+      <atom:link href="http://localhost:1313/tags/phd/index.xml" rel="self" type="application/rss+xml" />
     <description>PhD</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:4321/media/icon_hu10960734438886622341.png</url>
+      <url>http://localhost:1313/media/icon_hu_34f4679625e60a1a.png</url>
       <title>PhD</title>
-      <link>http://localhost:4321/tags/phd/</link>
+      <link>http://localhost:1313/tags/phd/</link>
     </image>
     
     <item>
-      <title>Kin recognition and sociality</title>
-      <link>http://localhost:4321/research/kinrecognition/</link>
-      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/research/kinrecognition/</guid>
+      <title>Kin Recognition and Family Living in Lizards</title>
+      <link>http://localhost:1313/research/kin-recognition/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/kin-recognition/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Family living&lt;/strong&gt; is an important aspect of social behaviour in species throughout the animal kingdom. The organisation of family groups varies across species, from simple family life, such as that where offspring are tolerated on the parental territory, to highly complex family structures, such as that found in eusocial insects. This variation has captivated behavioural and evolutionary biologists for decades. As a result, there has been substantial work to explain how complex family organisation comes about in the first place. Family living initially arises when offspring forgo immediate dispersal, for instance due to ecological constraints (e.g., no available territories), and remain with one or both parents instead. Kin selection is thought to play an important role in this group formation through the inclusive fitness benefits provided by cooperating with related conspecifics. An implicit assumption to preferential cooperation with kin is that individuals recognise their relatives, a process called &lt;strong&gt;kin recognition&lt;/strong&gt;. Nevertheless, the precise relationship between kin recognition and the evolution of family organisation, as well as the factors that have influenced the emergence of kin ecognition itself, remain largely unknown.&lt;/p&gt;
 &lt;p&gt;During my PhD, I addressed this knowledge gap by investigating which factors could have influenced the early development of kin recognition and its links with family living. I started by leveraging the existing literature to outline the potential role that the prenatal environment plays in mediating the emergence of kin recognition preferences. I discuss the potential social environment in which embryos develop and illustrate how the close social associations of embryos can provide a foundation for early learning of kin characteristics for postnatal recognition. Various aspects of the developmental setting (e.g., clutch size, gestation period or intrauterine position) affect communication opportunities, and thus constrain or promote associations which could give rise to the development of kin recognition. Such effects are expected to be particularly pronounced in species with viviparous (live bearing) reproduction as opposed to oviparity (egg laying), where physical barriers constrain communication. To that end, I empirically tested how reproductive mode affects kin discrimination. I used the lizard species &lt;em&gt;Saiphos equalis&lt;/em&gt;, which exhibits intraspecific variation in reproductive mode, a trait rare amongst vertebrates. My results unexpectedly did not suggest any effect of reproductive mode on kin discrimination, for which I propose several potential explanations.&lt;/p&gt;
 &lt;p&gt;I then applied behavioural, chemical, and genetic analysis to uncover the relationship between kin recognition and complex sociality. For a model system leverage a group of Australian family-living skinks, collectively called the Egernia group, which exhibit high diversity in family structure, from largely solitary to communal living species. To achieve this, I first compared kin discrimination between Egernia group species with differing levels of social complexity: &lt;em&gt;Eulamprus quoyii&lt;/em&gt; (non-Egernia outgroup), &lt;em&gt;Liopholis whitii&lt;/em&gt;, and &lt;em&gt;Egernia saxatilis&lt;/em&gt;. I show that &lt;em&gt;E. saxatilis&lt;/em&gt; exhibits kin discrimination soon after birth, but no longer at four months of age. No kin discrimination was observed within either &lt;em&gt;L. whitii&lt;/em&gt; or &lt;em&gt;E. quoyii.&lt;/em&gt; I then conducted a detailed analysis of chemical compounds found in scats, which are known to be involved in communication, of five species: &lt;em&gt;E. quoyii&lt;/em&gt;, &lt;em&gt;L. whitii&lt;/em&gt;, &lt;em&gt;E. saxatilis&lt;/em&gt;, &lt;em&gt;Egernia cunninghami&lt;/em&gt;, and &lt;em&gt;Tiliqua rugosa&lt;/em&gt;. I found strong intraspecific differences in the chemical composition of scats. This variation in chemical composition showed putative links to variation in sociality; however, other factors such as diet, phylogeny or climate may also play a role. Finally, I utilised one species of Egernia, &lt;em&gt;L. whitii&lt;/em&gt;, to test the links between differences in the chemical structure between individuals and their pairwise relatedness. If scats provide kin cues, they are expected to contain genotypic signals. My results suggest a weak link between chemical and genotypic similarity between individuals, however, the strength of the signal conforms to that found in other systems.&lt;/p&gt;
@@ -40,8 +39,8 @@
 
 &lt;figure  id=&#34;figure-example-kin-recognition-trial-with-black-rock-skink-e-saxatilis-juvenile&#34;&gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;E. saxatilis kin recognition trial&#34;
-           src=&#34;http://localhost:4321/research/kinrecognition/KR-trial.gif&#34;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img alt=&#34;E. saxatilis kin recognition trial&#34;
+           src=&#34;http://localhost:1313/research/kin-recognition/KR-trial.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Example kin recognition trial with black rock skink (&lt;em&gt;E. saxatilis&lt;/em&gt;) juvenile.
@@ -66,8 +65,8 @@
 
 &lt;figure  id=&#34;figure-phd-structure-diagram-numbers-refer-to-thesis-chapters&#34;&gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;PhD thesis diagram&#34;
-           src=&#34;http://localhost:4321/research/kinrecognition/PhD-diagram.svg&#34;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img alt=&#34;PhD thesis diagram&#34;
+           src=&#34;http://localhost:1313/research/kin-recognition/PhD-diagram.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       PhD structure diagram. Numbers refer to thesis chapters.
@@ -78,7 +77,14 @@
 &lt;h3 id=&#34;egernia-group&#34;&gt;Egernia group&lt;/h3&gt;
 &lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;My biggest model system consists of a group of 60 species across seven Australian skink genera (&lt;em&gt;Egernia&lt;/em&gt;, &lt;em&gt;Liopholis&lt;/em&gt;, &lt;em&gt;Bellatorias&lt;/em&gt;, &lt;em&gt;Lissolepis&lt;/em&gt;, &lt;em&gt;Tiliqua&lt;/em&gt;, &lt;em&gt;Cyclodomorphus&lt;/em&gt; and &lt;em&gt;Corucia&lt;/em&gt;) collectively referred to as the Egernia group or Egerniinae. The group separates itself from most other lizards with its high variation in complexity of social structures. While most lizards are solitary, species of the Egernia group display a wide variation in social structures from solitary (e.g., &lt;em&gt;Tiliqua rugosa&lt;/em&gt;) all the way to species living in large communal groups (e.g., &lt;em&gt;Egernia cunninghami&lt;/em&gt;) and everything in between. This variation makes them an excellent system to investigate the initial evolution of sociality and related behaviour, such as kin recognition.&lt;/p&gt;
-&lt;p&gt;
+
+
+
+
+
+
+
+	
 
 
 
@@ -94,25 +100,613 @@
 
 
 
-&lt;figure  id=&#34;figure-egernia-model-system&#34;&gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Egernia species&#34; srcset=&#34;
-               /research/kinrecognition/phd-egernia-collage_hu17854524716034146843.webp 400w,
-               /research/kinrecognition/phd-egernia-collage_hu3619791255479508003.webp 760w,
-               /research/kinrecognition/phd-egernia-collage_hu5120691759385362937.webp 1200w&#34;
-               src=&#34;http://localhost:4321/research/kinrecognition/phd-egernia-collage_hu17854524716034146843.webp&#34;
-               width=&#34;754&#34;
-               height=&#34;760&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Egernia model system.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.7.1.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+
+
+&lt;style&gt;
+	
+		.jg-entry img {
+			transition: transform .25s ease-in-out !important;
+		}
+
+		.jg-entry img:hover {
+			transform: scale(1.1);
+		}
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-eef77da35952c0da80779abb508cde7c-0-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-eef77da35952c0da80779abb508cde7c-0&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/research/kin-recognition/egernia/tiliqua-rugosa.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+						
+							title=&#34;Shingleback skink, Tiliqua rugosa&#34;
+						
+
+						
+							data-description=&#34;&lt;br/&gt; &#34;
+						
+
+						
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;400&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANGKGK3zKyhVQ5ZmbjGM5qo/ifTYQIg7O2ePLTH6tjP5VQ8Tz6kLK3WzG6OR8SpHHliv6j8eKq2&amp;#43;lG6dUuYhFGinPzbmY9uRgfkv4k1xxirXZ3ylK9kWL3xHLcoUjjjVGUr8zbj/AJ4qj/aGp3scsMLwzjYBIm1enrz9a1ItNtbWP5bdSMnlxv59h0pkmnRJM0sKks4Ac8hSO386fMuiFyye7NWPD2zllBwp7e1U5pvs0XmouVLbChP9atw/8er/AO6f5Vn3/wDx5D/rsP51C3NHsW1k3MoCICoyDtHA9Kds86N5gxVlGPX/APVUUX&amp;#43;s/wCAf4VPB/x5yf59auxk2f/Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/research/kin-recognition/egernia/tiliqua-rugosa_hu_cb37b7d22a13fa57.jpg&#34;
+						
+
+						
+							
+								
+									alt=&#34;Shingleback skink, Tiliqua rugosa&#34;
+								
+							
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/research/kin-recognition/egernia/liopholis-whitii.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+						
+							title=&#34;White&amp;#39;s skink, Liopholis whitii&#34;
+						
+
+						
+							data-description=&#34;&lt;br/&gt; &#34;
+						
+
+						
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;400&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AG&amp;#43;HlNrIWjIcOuWJU8DPbFa1xfqd4D4wwK9RmucttTiW2RlxE0iALsBAPTk/rTVudXiaL7VZxSgfcZZMEsTx6j8DWKUnsEZWVjo4tSP2lmkVvLK8D39afPqEUduylW57&amp;#43;tZVvHe3VuJVhG4ruKuwLbfXkYqrd3m6YJIpTYAGyKluS0ZV&amp;#43;phaRbq2ni9kLOxfYFJ4HT/6/wCdaWqhQHkj3Rqqk7QewB4qlpP/ACLq/wDXaruqf6ib/rnJ/I11pIzM2HxJd2t40yAFI9sRjJ&amp;#43;&amp;#43;vufXjrXZpBDfRK7xqPMTcTtG4DPTPr715pJ1n/66D&amp;#43;ten6b/AMe0H/XEfzrKSuzWOx//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/research/kin-recognition/egernia/liopholis-whitii_hu_7cc7bea226499d84.jpg&#34;
+						
+
+						
+							
+								
+									alt=&#34;White&amp;#39;s skink, Liopholis whitii&#34;
+								
+							
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/research/kin-recognition/egernia/egernia-striolata.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+						
+							title=&#34;Tree skink, Egernia striolata&#34;
+						
+
+						
+							data-description=&#34;&lt;br/&gt; &#34;
+						
+
+						
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;400&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOjj0&amp;#43;Uw&amp;#43;cIyUBAJArOOt6StwtuLnfIxwoRCcn2OOa7NiLeJEjXcAOM9B&amp;#43;FcF4usrOxK3dxDGlpLLmUqilw5bIbPUZwelZ8qLubFtPa3vywTq5BIK4IIP0NEumb&amp;#43;a5jUGtvJW7VpwjxgieIHJU9Nw4Ofcdahl1LVNPtYrm1uzKsZGE2H5l7BgeT2o5UO7PSrR2lMhlbdmVVXjGBwcfrXJ/ES1STQY3kLNm6UYzgZbcv6dRXV2P8AF/13X&amp;#43;S1zXxC/wCRch/6&amp;#43;4v/AEI1ZJSjtQRY2wb5GZUIIzlQG4/Qc0/XdOh/suVYf3W2NnBUc5GMc/U5/CpYv&amp;#43;PrT/8AfH8nqbW/&amp;#43;QbP/wBe7/8AstCGf//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/research/kin-recognition/egernia/egernia-striolata_hu_15131e06b911e032.jpg&#34;
+						
+
+						
+							
+								
+									alt=&#34;Tree skink, Egernia striolata&#34;
+								
+							
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/research/kin-recognition/egernia/egernia-stokesii.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;400&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AO0i1q4lfYQqHHWobrUbpTndvPbFcfY&amp;#43;KdPuMyKZwN4TLr3PbgntVS88RXGpSM1lvjtICPMZuPNJOMAjkCs3zvc1SgtkdcWuL0EzuR6DPSoGtbdOJPmx3NZJ1x7ezluY4JJlglMcmBwpBwST0xVm01/T78SMGIEZ5Yg7Pru6VFmXdHm2jYbVGtnyY5kbcAccgFh&amp;#43;oq/Pcto2ooUBmiUiTymYgcjpkfWqGi/8h&amp;#43;P/AHH/APQDVnxD/wAfg/65r/Kt3vYyXw3O78NmPU9PnWWICK7Y7o88AHOf5Vg6xZCy1qXSbKQwWku2Ly1GQOQc&amp;#43;5yOc9cmtzwR/wAg6L/eH9azNf8A&amp;#43;RyH/XZKhblS2P/Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/research/kin-recognition/egernia/egernia-stokesii_hu_bc205a5db73f2210.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/research/kin-recognition/egernia/egernia-saxatilis.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+						
+							title=&#34;Black rock skink, Egernia saxatilis&#34;
+						
+
+						
+							data-description=&#34;&lt;br/&gt; &#34;
+						
+
+						
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;400&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AG6XplnPdS2yTOojy20EZ54x&amp;#43;H9a2IdLtLVWMAkVtpBbdk1zNpdzp4qeeeNlM0RUoGwOMd63pNZCOkcShpScMHOFAPvzUpK5dluR6Pq6X0N0pdwLWYoc44q7HciQnLgkdulcjdRnS/EsqK6KL&amp;#43;ETExE4L7j/AI//AFqWK&amp;#43;eS8Yq211U9ex9BTaGn0O3ls452Kyqj4HVl6euO4rOk0CEoJ4p5U5yVPI45rZ/5av8AT/Go/wDlzP4/yq2Qmee&amp;#43;JY9t9pcisQd0i/hxTFgMJWQyM6kCQqfUA/4VN4m/4&amp;#43;dL/wCusn9KJf8AUp/1x/o1QUf/2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/research/kin-recognition/egernia/egernia-saxatilis_hu_f088266212839d24.jpg&#34;
+						
+
+						
+							
+								
+									alt=&#34;Black rock skink, Egernia saxatilis&#34;
+								
+							
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/research/kin-recognition/egernia/egernia-cunninghami.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+						
+							title=&#34;Cunningham skink, Egernia cunninghami&#34;
+						
+
+						
+							data-description=&#34;&lt;br/&gt; &#34;
+						
+
+						
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;400&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOeu4pI7iSJjHnJYhcgg9xg/0rKmige13K&amp;#43;JQSS&amp;#43;c5H0/H/PFegSeDLWSNhPcXW11y0SsEXHbOOScDvmon8Kx2&amp;#43;xLC3icnkxSnjjpyOT3rGEQ5TmPD&amp;#43;ox2kcsq7HmgxkMvOeemfoK6&amp;#43;31dZ7IzzEwnuWY7Txnjj&amp;#43;dZGo6BfR5aFrGzEZzIjEEH685rI1nVFSJY1s4pCPvSwyb1I/Edela/CPSx1kWvvbwqDCZJHG7e8me&amp;#43;ORjmi012e91B41jSEBASyjLHPv6c1kSfci/wCuf/swp&amp;#43;i/8hWX/rmn9KnoUjqYbS33NPLCssmcF2HJPrU8ltZMuGsomXGcMM9qSP8A1T/71SN93/gP9KpAz//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/research/kin-recognition/egernia/egernia-cunninghami_hu_1db355bb9347f151.jpg&#34;
+						
+
+						
+							
+								
+									alt=&#34;Cunningham skink, Egernia cunninghami&#34;
+								
+							
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!(&#34;HSCGjQuery&#34; in window)) {
+		if (!window.jQuery) {
+			throw new Error(&#34;jQuery is not loaded, hugo-shortcode-gallery wont work without it!&#34;);
+		}
+		window.HSCGjQuery = window.jQuery.noConflict(true);
+	}
+
+	
+	
+	
+	
+	
+	;(function($) {
+
+		$( document ).ready(() =&gt; {
+			const gallery = $(&#34;#gallery-eef77da35952c0da80779abb508cde7c-0&#34;);
+			
+
+			
+			let swipeboxInstance = null;
+
+			
+			
+			gallery.on(&#39;jg.complete&#39;, () =&gt; {
+				
+					
+					
+					$(() =&gt; {
+						$(&#39;.lazy&#39;).Lazy({
+							visibleOnly: true,
+							afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+						});
+					});
+				
+
+				swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+					$.extend({},
+						{  }
+					)
+				);
+			});
+
+			
+			gallery.justifiedGallery($.extend(
+				{
+					rowHeight : &#34;170&#34;,
+					margins : &#34;5&#34;,
+					border : 0,
+					randomize :  false ,
+					waitThumbnailsLoad : false,
+					lastRow : &#34;justify&#34;,
+					captions : false,
+					
+					
+				},
+				{  }
+			));
+
+			
+			
+		});
+
+	
+	
+	
+	})(window.HSCGjQuery)
+&lt;/script&gt;
+
 &lt;/div&gt;
 &lt;h3 id=&#34;saiphos&#34;&gt;Saiphos&lt;/h3&gt;
 &lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;My second model system consists of the Australian skink &lt;em&gt;Saiphos equalis&lt;/em&gt; or three-toed skink. These skinks have an unusual fossorial (i.e., have a burrowing lifestyle) and nocturnal ecology. However, it is not their lifestyle that makes them so interesting from a kin recognition perspective, but its unique mode of reproduction. &lt;em&gt;Saiphos&lt;/em&gt; is one of ~eight lizard species with well-documented bimodal reproduction, which means that females of some populations (typically lower elevation) lay eggs (oviparity), while females from other populations (higher elevations) give birth to live young (viviparity). In reality the distinction is not black and white and individuals can be positioned along a continuum from ‘true’ egg laying to ‘true’ live bearing. This is in contrast to the vast majority of vertebrates in which the entire species either gives birth to live young or lays eggs. Their unique trait makes &lt;em&gt;S. equalis&lt;/em&gt; ideal to answer specific questions regarding the influence of reproductive mode on different traits, such as kin recognition. They allow for intraspecific methods to be used without many of the confounding factors that are inevitable when using interspecific methods.&lt;/p&gt;
-&lt;p&gt;
+
+
+
+
+
+
+
+	
 
 
 
@@ -128,22 +722,213 @@
 
 
 
-&lt;figure  id=&#34;figure-comparison-of-saiphos-equalis-eggs-left-semi-calcified-egg-from-transitional-in-between-egg-laying-and-live-bearing-sydney-population-right-juvenile-in-egg-consisting-of-non-calcified-membrane-from-live-bearing-population-from-mount-mackenzie-nature-reserve-northern-nsw&#34;&gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Saiphos egg comparison photo&#34; srcset=&#34;
-               /research/kinrecognition/saiphos_egg_comparison_hu16612136577206083571.webp 400w,
-               /research/kinrecognition/saiphos_egg_comparison_hu1280025481799973234.webp 760w,
-               /research/kinrecognition/saiphos_egg_comparison_hu1504578427509574145.webp 1200w&#34;
-               src=&#34;http://localhost:4321/research/kinrecognition/saiphos_egg_comparison_hu16612136577206083571.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;507&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Comparison of &lt;em&gt;Saiphos equalis&lt;/em&gt; eggs. Left: semi-calcified egg from transitional (in between egg-laying and live-bearing) Sydney population. Right: juvenile in &amp;quot;egg&amp;quot; consisting of non-calcified membrane from live bearing population from Mount Mackenzie Nature Reserve (Northern NSW).
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+		.jg-entry img {
+			transition: transform .25s ease-in-out !important;
+		}
+
+		.jg-entry img:hover {
+			transform: scale(1.1);
+		}
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-eef77da35952c0da80779abb508cde7c-1-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-eef77da35952c0da80779abb508cde7c-1&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/research/kin-recognition/saiphos_egg_comparison.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+						
+							title=&#34;Comparison of Saiphos equalis eggs. Left: semi-calcified egg from transitional Sydney population. Right: juvenile in &amp;#39;egg&amp;#39; consisting of non-calcified membrane from live bearing population.&#34;
+						
+
+						
+							data-description=&#34;&lt;br/&gt; &#34;
+						
+
+						
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;400&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AKb60QQi28L7Tje&amp;#43;f8anXUGu4d2FjxzsXofese2klgukcqsmw5w2CPxqUShZ7i52COJQxxjgewzUqcmzaUIpGtHqUVvsLxM/cKO9aSaxYahbmFWWBiR8hO0Z9s8Vyl2n26xhkjcoGTIKnow5qstu8agyM0hIwzMcn/DrQ6jTEqaaJhfAkiW3SRsfe5Gap3d49zGIQqxRL/Avf60p/wBY30qse9a2Rg5PYlsr6SzBjAEkROdjdj6j0rbjnV08wRAMRnLEkDj0rm/4q3rf/Ur/ALhoaTYKTWh//9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/research/kin-recognition/saiphos_egg_comparison_hu_b21a8350bde11f8f.jpg&#34;
+						
+
+						
+							
+								
+									alt=&#34;Comparison of Saiphos equalis eggs. Left: semi-calcified egg from transitional Sydney population. Right: juvenile in &amp;#39;egg&amp;#39; consisting of non-calcified membrane from live bearing population.&#34;
+								
+							
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!(&#34;HSCGjQuery&#34; in window)) {
+		if (!window.jQuery) {
+			throw new Error(&#34;jQuery is not loaded, hugo-shortcode-gallery wont work without it!&#34;);
+		}
+		window.HSCGjQuery = window.jQuery.noConflict(true);
+	}
+
+	
+	
+	
+	
+	
+	;(function($) {
+
+		$( document ).ready(() =&gt; {
+			const gallery = $(&#34;#gallery-eef77da35952c0da80779abb508cde7c-1&#34;);
+			
+
+			
+			let swipeboxInstance = null;
+
+			
+			
+			gallery.on(&#39;jg.complete&#39;, () =&gt; {
+				
+					
+					
+					$(() =&gt; {
+						$(&#39;.lazy&#39;).Lazy({
+							visibleOnly: true,
+							afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+						});
+					});
+				
+
+				swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+					$.extend({},
+						{  }
+					)
+				);
+			});
+
+			
+			gallery.justifiedGallery($.extend(
+				{
+					rowHeight : &#34;170&#34;,
+					margins : &#34;5&#34;,
+					border : 0,
+					randomize :  false ,
+					waitThumbnailsLoad : false,
+					lastRow : &#34;justify&#34;,
+					captions : false,
+					
+					
+				},
+				{  }
+			));
+
+			
+			
+		});
+
+	
+	
+	
+	})(window.HSCGjQuery)
+&lt;/script&gt;
+
 &lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>The prenatal foundations of kin recognition</title>
+      <link>http://localhost:1313/publications/lambreghts2026/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/lambreghts2026/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+Kin recognition, the ability to identify genetic relatives, relies on familiarisation for the creation of recognition templates. During development, parent and embryo(s) are exposed to chemical, auditory, and tactile cues that can communicate reliable genetic information. We discuss how these cues can have organisational effects during a time of heightened phenotypic sensitivity, creating postnatal kin preferences. As familiarisation is often determined by the prenatal social environment, we argue that reproductive traits that alter the social context of the prenatal environment, such as reproductive mode, could facilitate the evolution of kin recognition. Furthermore, we outline how these effects of prenatal familiarisation can extend beyond kin recognition and play a pivotal role in the emergence and evolution of complex social behaviours.
+&lt;/div&gt;</description>
     </item>
     
   </channel>

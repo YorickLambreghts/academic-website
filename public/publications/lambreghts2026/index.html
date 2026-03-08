@@ -1,0 +1,3540 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: March 8, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system"
+      data-hbb-relurl="/">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Kit 0.11.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+  
+  
+
+
+
+
+<meta name="author" content="Yorick Lambreghts" />
+
+  
+  
+  
+  
+  
+  <meta name="description" content="Kin recognition, the ability to identify genetic relatives, relies on familiarisation for the creation of recognition templates. During development, parent and embryo(s) are exposed to chemical, auditory, and tactile cues that can communicate reliable genetic information. We discuss how these cues can have organisational effects during a time of heightened phenotypic sensitivity, creating postnatal kin preferences. As familiarisation is often determined by the prenatal social environment, we argue that reproductive traits that alter the social context of the prenatal environment, such as reproductive mode, could facilitate the evolution of kin recognition. Furthermore, we outline how these effects of prenatal familiarisation can extend beyond kin recognition and play a pivotal role in the emergence and evolution of complex social behaviours." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publications/lambreghts2026/" />
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+  
+
+
+
+
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+  
+
+
+
+
+<style>
+   
+     
+  
+   
+  :root {
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-100: oklch(0.962 0.059 95.617);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-200: oklch(0.924 0.12 95.746);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-300: oklch(0.879 0.169 91.605);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-400: oklch(0.828 0.189 84.429);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-50: oklch(0.987 0.022 95.277);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-500: oklch(0.769 0.188 70.08);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-600: oklch(0.666 0.179 58.318);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-700: oklch(0.555 0.163 48.998);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-800: oklch(0.473 0.137 46.201);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-900: oklch(0.414 0.112 45.904);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-950: oklch(0.279 0.077 45.635);
+    
+    
+    /* Also set the legacy RGB vars to a fallback (500 shade) to prevent breakage 
+       in case something accesses the raw -rgb var directly, though unlikely */
+    --hb-primary-500-rgb: 128 128 128; 
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-100: oklch(0.953 0.051 180.801);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-200: oklch(0.91 0.096 180.426);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-300: oklch(0.855 0.138 181.071);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-400: oklch(0.777 0.152 181.912);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-50: oklch(0.984 0.014 180.72);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-500: oklch(0.704 0.14 182.503);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-600: oklch(0.6 0.118 184.704);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-700: oklch(0.511 0.096 186.391);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-800: oklch(0.437 0.078 188.216);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-900: oklch(0.386 0.063 188.416);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-950: oklch(0.277 0.046 192.524);
+    
+    
+    /* Also set the legacy RGB vars to a fallback (500 shade) to prevent breakage 
+       in case something accesses the raw -rgb var directly, though unlikely */
+    --hb-secondary-500-rgb: 128 128 128; 
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-100: oklch(0.97 0.001 106.424);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-200: oklch(0.923 0.003 48.717);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-300: oklch(0.869 0.005 56.366);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-400: oklch(0.709 0.01 56.259);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-50: oklch(0.985 0.001 106.423);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-500: oklch(0.553 0.013 58.071);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-600: oklch(0.444 0.011 73.639);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-700: oklch(0.374 0.01 67.558);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-800: oklch(0.268 0.007 34.298);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-900: oklch(0.216 0.006 56.043);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-950: oklch(0.147 0.004 49.25);
+    
+    
+    /* Also set the legacy RGB vars to a fallback (500 shade) to prevent breakage 
+       in case something accesses the raw -rgb var directly, though unlikely */
+    --hb-gray-500-rgb: 128 128 128; 
+  
+
+
+
+
+
+--color-background: #ffffff;
+--color-foreground: #24292f;
+
+
+--color-header-bg: #f6f8fa;
+--color-header-fg: #24292f;
+
+
+--color-footer-bg: #ffffff;
+--color-footer-fg: #57606a;
+
+    
+  }
+
+   
+  .dark {
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-100: oklch(0.962 0.059 95.617);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-200: oklch(0.924 0.12 95.746);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-300: oklch(0.879 0.169 91.605);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-400: oklch(0.828 0.189 84.429);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-50: oklch(0.987 0.022 95.277);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-500: oklch(0.769 0.188 70.08);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-600: oklch(0.666 0.179 58.318);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-700: oklch(0.555 0.163 48.998);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-800: oklch(0.473 0.137 46.201);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-900: oklch(0.414 0.112 45.904);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-primary-950: oklch(0.279 0.077 45.635);
+    
+    
+    /* Also set the legacy RGB vars to a fallback (500 shade) to prevent breakage 
+       in case something accesses the raw -rgb var directly, though unlikely */
+    --hb-primary-500-rgb: 128 128 128; 
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-100: oklch(0.953 0.051 180.801);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-200: oklch(0.91 0.096 180.426);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-300: oklch(0.855 0.138 181.071);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-400: oklch(0.777 0.152 181.912);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-50: oklch(0.984 0.014 180.72);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-500: oklch(0.704 0.14 182.503);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-600: oklch(0.6 0.118 184.704);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-700: oklch(0.511 0.096 186.391);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-800: oklch(0.437 0.078 188.216);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-900: oklch(0.386 0.063 188.416);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-secondary-950: oklch(0.277 0.046 192.524);
+    
+    
+    /* Also set the legacy RGB vars to a fallback (500 shade) to prevent breakage 
+       in case something accesses the raw -rgb var directly, though unlikely */
+    --hb-secondary-500-rgb: 128 128 128; 
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-100: oklch(0.97 0.001 106.424);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-200: oklch(0.923 0.003 48.717);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-300: oklch(0.869 0.005 56.366);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-400: oklch(0.709 0.01 56.259);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-50: oklch(0.985 0.001 106.423);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-500: oklch(0.553 0.013 58.071);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-600: oklch(0.444 0.011 73.639);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-700: oklch(0.374 0.01 67.558);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-800: oklch(0.268 0.007 34.298);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-900: oklch(0.216 0.006 56.043);
+    
+      /* Note: converting OKLCH to raw RGB CSS vars requires Tailwind 4's internal conversion 
+         or we output the raw color value directly if theme.css supports it.
+         
+         The existing system expects --hb-primary-50-rgb to be a comma-less RGB triplet "255 255 255".
+         However, Tailwind 4 supports OKLCH natively. 
+         
+         CRITICAL FIX: We must override the `rgb(var(...))` wrapper in `theme.css` if we want to use OKLCH.
+         OR we just output the RGB approximation if we want to keep `theme.css` untouched.
+         
+         BUT `theme.css` defines: --color-primary-50: rgb(var(--hb-primary-50-rgb));
+         So we MUST provide RGB triplets. OKLCH strings like "oklch(...)" inside `rgb(...)` is invalid CSS.
+         
+         To fix this properly without changing `theme.css` significantly, we need RGB values in this table, 
+         OR we redefine the higher-level variables.
+         
+         Since we cannot easily calculate OKLCH -> RGB in Hugo templates, we should 
+         OUTPUT THE HIGHER LEVEL VARIABLES directly here to override theme.css.
+      */
+      --color-gray-950: oklch(0.147 0.004 49.25);
+    
+    
+    /* Also set the legacy RGB vars to a fallback (500 shade) to prevent breakage 
+       in case something accesses the raw -rgb var directly, though unlikely */
+    --hb-gray-500-rgb: 128 128 128; 
+  
+
+
+
+
+
+--color-background: #0d1117;
+--color-foreground: #c9d1d9;
+
+
+--color-header-bg: #161b22;
+--color-header-fg: #f0f6fc;
+
+
+--color-footer-bg: #0d1117;
+--color-footer-fg: #8b949e;
+
+    
+  }
+   
+</style>
+
+
+  
+  
+
+  
+  
+  
+    
+
+  
+  
+  
+  
+  
+  
+  
+    
+      <link rel="stylesheet" href="/css/_entry.css">
+    
+  
+
+
+  
+
+  
+  
+  
+
+  
+
+  <script src="/js/hb-head.min.js"></script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+    <link rel="icon" type="image/png" href="/media/icon_hu_d25a35243d9d1df8.png" />
+  
+  
+  
+  
+    
+      <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_6215ca1e75b36d01.png" />
+    
+  
+
+  <link rel="canonical" href="http://localhost:1313/publications/lambreghts2026/" />
+
+  
+  
+  
+
+  
+  
+  
+
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@LambreghtsY" />
+    <meta property="twitter:creator" content="@LambreghtsY" />
+  
+  <meta property="og:site_name" content="Yorick Lambreghts" />
+  <meta property="og:url" content="http://localhost:1313/publications/lambreghts2026/" />
+  <meta property="og:title" content="The prenatal foundations of kin recognition | Yorick Lambreghts" />
+  <meta property="og:description" content="
+Kin recognition, the ability to identify genetic relatives, relies on familiarisation for the creation of recognition templates. During development, parent and embryo(s) are exposed to chemical, auditory, and tactile cues that can communicate reliable genetic information. We discuss how these cues can have organisational effects during a time of heightened phenotypic sensitivity, creating postnatal kin preferences. As familiarisation is often determined by the prenatal social environment, we argue that reproductive traits that alter the social context of the prenatal environment, such as reproductive mode, could facilitate the evolution of kin recognition. Furthermore, we outline how these effects of prenatal familiarisation can extend beyond kin recognition and play a pivotal role in the emergence and evolution of complex social behaviours.
+" /><meta property="og:image" content="http://localhost:1313/publications/lambreghts2026/featured.jpg" />
+    <meta property="twitter:image" content="http://localhost:1313/publications/lambreghts2026/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2025-12-20T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2026-03-04T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/publications/lambreghts2026/"
+  },
+  "headline": "The prenatal foundations of kin recognition",
+  
+  "image": [
+    "http://localhost:1313/publications/lambreghts2026/featured.jpg"
+  ],
+  
+  "datePublished": "2025-12-20T00:00:00Z",
+  "dateModified": "2026-03-04T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Yorick Lambreghts"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yorick Lambreghts",
+    "logo": {
+      "@type": "ImageObject",
+      "url":  null 
+    }
+  },
+  "description": "\u003cdiv style=\"text-align: justify\"\u003e\r\nKin recognition, the ability to identify genetic relatives, relies on familiarisation for the creation of recognition templates. During development, parent and embryo(s) are exposed to chemical, auditory, and tactile cues that can communicate reliable genetic information. We discuss how these cues can have organisational effects during a time of heightened phenotypic sensitivity, creating postnatal kin preferences. As familiarisation is often determined by the prenatal social environment, we argue that reproductive traits that alter the social context of the prenatal environment, such as reproductive mode, could facilitate the evolution of kin recognition. Furthermore, we outline how these effects of prenatal familiarisation can extend beyond kin recognition and play a pivotal role in the emergence and evolution of complex social behaviours.\r\n\u003c/div\u003e"
+}
+</script>
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@id": "http://localhost:1313/publications/lambreghts2026/",
+  "@type": "WebPage",
+  "dateModified": "2026-03-04T00:00:00Z",
+  "datePublished": "2026-03-04T00:00:00Z",
+  "description": "\rKin recognition, the ability to identify genetic relatives, relies on familiarisation for the creation of recognition templates. During development, parent and embryo(s) are exposed to chemical, auditory, and tactile cues that can communicate reliable genetic information. We discuss how these cues can have organisational effects during a time of heightened phenotypic sensitivity, creating postnatal kin preferences. As familiarisation is often determined by the prenatal social environment, we argue that reproductive traits that alter the social context of the prenatal environment, such as reproductive mode, could facilitate the evolution of kin recognition. Furthermore, we outline how these effects of prenatal familiarisation can extend beyond kin recognition and play a pivotal role in the emergence and evolution of complex social behaviours.\r",
+  "inLanguage": "en-us",
+  "isPartOf": {
+    "@id": "http://localhost:1313/",
+    "@type": "WebSite",
+    "name": "Yorick Lambreghts: Academic Website",
+    "url": "http://localhost:1313/"
+  },
+  "name": "The prenatal foundations of kin recognition",
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "height": 2891,
+    "url": "http://localhost:1313/publications/lambreghts2026/featured.jpg",
+    "width": 1954
+  },
+  "url": "http://localhost:1313/publications/lambreghts2026/"
+}
+</script>
+
+
+
+  <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "http://localhost:1313/",
+        "name": "Yorick Lambreghts: Academic Website"
+      },
+      "name": "Yorick Lambreghts: Academic Website",
+      "position": 1
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "http://localhost:1313/publications/",
+        "name": "Publications"
+      },
+      "name": "Publications",
+      "position": 2
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "http://localhost:1313/publications/lambreghts2026/",
+        "name": "The prenatal foundations of kin recognition"
+      },
+      "name": "The prenatal foundations of kin recognition",
+      "position": 3
+    }
+  ]
+}
+    </script>
+
+
+
+
+
+
+  <title>The prenatal foundations of kin recognition | Yorick Lambreghts</title>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <style>
+    :root {
+       
+      --hb-font-size-base: 1rem;
+      --hb-font-size-scale: 1.25;
+      
+       
+      --hb-radius: 0.5rem;
+      --hb-spacing-base: 1rem;
+      --hb-spacing-section: 4rem;
+    }
+    
+    
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+    
+  </style>
+
+  
+
+  
+  
+
+
+
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+        
+        
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+        
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+        
+      
+    
+  
+
+
+
+
+</head>
+
+  <body class="bg-[var(--color-background)] text-[var(--color-foreground)] page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+          
+<header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-start">
+    <div class="order-0 h-full">
+      
+      <a class="navbar-brand" href="/" title="Yorick Lambreghts">
+        
+        
+        
+        
+        
+        Yorick Lambreghts
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-[var(--color-header-fg)] lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
+      ml-auto mr-6">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/"
+        >About Me</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/publications/"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/research/"
+        >Research</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/photography/"
+        >Photography</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+
+      
+      
+      <div class="px-3 text-[var(--color-header-fg)] hover:text-primary-500
+            [&.active]:font-bold [&.active]:text-primary-500">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="block dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="hidden dark:block">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+
+        
+      
+    </div>
+    
+    <div class="page-body  my-10">
+      
+
+
+
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+<div class="mx-auto flex max-w-screen-xl">
+  
+
+
+
+<aside class="hb-sidebar-container max-lg:[transform:translate3d(0,-100%,0)] lg:hidden xl:block">
+  
+  <div class="px-4 pt-4 lg:hidden">
+    
+    
+  </div>
+  <div class="hb-scrollbar lg:h-[calc(100vh-var(--navbar-height))]">
+    <ul class="flex flex-col gap-1 lg:hidden">
+      
+      
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/photography/"
+    
+  >Photography
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/photography/animal/"
+    
+  >Animals
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/photography/fieldwork/"
+    
+  >Field work
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/research/"
+    
+  >Research
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/research/gene-editing/"
+    
+  >Genetic Modifications in Lizards
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/research/kin-recognition/"
+    
+  >Kin Recognition and Family Living in Lizards
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/research/frog-chytrid/"
+    
+  >Pathogenic Chytridiomycosis in Frogs
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/"
+    
+  >Publications
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/publications/lambreghts2026/"
+    
+  >The prenatal foundations of kin recognition
+    </a>
+  
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/waddle2024/"
+    
+  >Hotspot shelters stimulate frog resistance to chytridiomycosis
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/lopes2024/"
+    
+  >Predicting whaler shark presence and interactions with humans in southern Queensland, Australia
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/waddle2021/"
+    
+  >Amphibian resistance to chytridiomycosis increases following low-virulence chytrid fungal infection or drug-mediated clearance
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/thys2019/"
+    
+  >Nest defence behavioural reaction norms: testing life-history and parental investment theory predictions
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/demeester2018/"
+    
+  >Hunt or hide: How insularity and urbanization affect foraging decisions in lizards
+    </a>
+              
+            </li></ul>
+      </div></li>
+    </ul>
+
+    <div class="max-xl:hidden h-0 w-64 shrink-0"></div></div>
+
+</aside>
+  
+
+<nav class="hb-toc order-last hidden w-64 shrink-0 xl:block print:hidden px-4" aria-label="table of contents">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4">
+
+  
+  
+    
+    
+  
+
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  </div>
+  </nav>
+
+
+  <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+
+      
+
+      
+      
+      
+      
+
+      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100" data-pagefind-meta="title" data-pagefind-body>
+        
+        The prenatal foundations of kin recognition
+      </h1>
+
+      
+      <div class="mt-4 mb-16">
+      <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">4 Mar 2026</span><span class="mx-1">·</span>
+        
+
+        
+          
+          
+          
+          <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
+            
+              
+              <img src="/media/authors/me_hu_267069b5c1f4c7b3.webp" 
+                   width="16"
+                   height="16"
+                   alt="Yorick Lambreghts" 
+                   class="inline-block h-4 w-4 rounded-full border border-current" 
+                   loading="lazy" />
+            
+            <div>Yorick Lambreghts</div>
+          </div>
+          
+          
+          
+          <span class="mr-1">,</span>
+          <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
+            
+            <div>Martin J. Whiting</div>
+          </div>
+          
+          
+          
+          <span class="mr-1">,</span>
+          <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
+            
+            <div>Tobias Uller</div>
+          </div>
+          
+          
+          
+          <span class="mr-1">,</span>
+          <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
+            
+            <div>Camilla M. Whittington</div>
+          </div>
+          
+          
+          
+          <span class="mr-1">,</span>
+          <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
+            
+            <div>Geoffrey M. While</div>
+          </div>
+          
+
+        
+        <span class="mx-1">·</span>
+        <span class="mx-1">
+          1 min read
+        </span>
+        
+        </div>
+
+        <div class="mt-3">
+          
+
+
+
+<div class="">
+  
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-large" href="https://doi.org/10.1016/j.tree.2025.12.001" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+        DOI
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-large" href="/publications/lambreghts2026/Lambreghts_etal_2026-Figure1.pdf"  >
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/></svg>
+        Poster
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-large js-cite-clipboard cursor-pointer" type="button" data-filename="/publications/lambreghts2026/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+
+</div>
+
+
+        </div>
+      </div>
+
+
+
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+        
+        
+        
+      
+      
+      
+      
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 1065px;">
+          <div style="position: relative">
+            <img srcset="/publications/lambreghts2026/featured_hu_44fb81e4d39f9097.webp 320w, /publications/lambreghts2026/featured_hu_f5ef637cd7902a65.webp 480w, /publications/lambreghts2026/featured_hu_8f37a5a1f5971dda.webp 640w, /publications/lambreghts2026/featured_hu_e5b0b0e2dd758c79.webp 720w, /publications/lambreghts2026/featured_hu_291879bcd070ba3c.webp 720w"
+                 sizes="(max-width: 480px) 100vw, (max-width: 640px) 90vw, (max-width: 720px) 80vw, 720px"
+                 src="/publications/lambreghts2026/featured_hu_44fb81e4d39f9097.webp" 
+                 data-pagefind-meta="image[src]"
+                 width="720" 
+                 height="1065" 
+                 alt="" 
+                 class="featured-image"
+                 fetchpriority="high">
+            
+          </div>
+        </div>
+      
+      
+
+      
+      
+        <div class="max-w-prose grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
+
+        
+
+        
+        
+          <div class="font-bold text-2xl">Type</div>
+          <div>
+            
+            <a href="/publication_types/article-journal/">
+            Journal article
+            </a>
+            
+          </div>
+        
+
+        
+          <div class="font-bold text-2xl">Publication</div>
+          <div><em>Trends in Ecology &amp; Evolution</em></div>
+        
+
+        
+
+        
+
+        
+
+      </div>
+      
+
+      <div class="prose prose-slate lg:prose-xl dark:prose-invert" data-pagefind-body>
+        
+          <span data-pagefind-filter="type" style="display:none;">publications</span>
+        
+        
+        <div style="text-align: justify">
+Kin recognition, the ability to identify genetic relatives, relies on familiarisation for the creation of recognition templates. During development, parent and embryo(s) are exposed to chemical, auditory, and tactile cues that can communicate reliable genetic information. We discuss how these cues can have organisational effects during a time of heightened phenotypic sensitivity, creating postnatal kin preferences. As familiarisation is often determined by the prenatal social environment, we argue that reproductive traits that alter the social context of the prenatal environment, such as reproductive mode, could facilitate the evolution of kin recognition. Furthermore, we outline how these effects of prenatal familiarisation can extend beyond kin recognition and play a pivotal role in the emergence and evolution of complex social behaviours.
+</div>
+      </div>
+
+      
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2026-03-04T00:00:00.000Z">
+    <span>Last updated on</span>
+    4 Mar 2026</time>
+
+      <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
+        
+        <div class="max-w-prose print:hidden">
+  
+  
+
+  
+<div class="flex justify-center">
+  
+  <a class="no-underline bg-primary-100 hover:bg-primary-300 text-primary-800 text-xs font-medium mr-2 px-2.5 py-0.5 lg:px-5 lg:py-2 rounded dark:bg-primary-900 dark:hover:bg-primary-700 dark:text-primary-300" href="/tags/kin-recognition/">Kin Recognition</a>
+  
+  <a class="no-underline bg-primary-100 hover:bg-primary-300 text-primary-800 text-xs font-medium mr-2 px-2.5 py-0.5 lg:px-5 lg:py-2 rounded dark:bg-primary-900 dark:hover:bg-primary-700 dark:text-primary-300" href="/tags/phd/">PhD</a>
+  
+</div>
+
+
+  
+<section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+  
+
+  
+  
+  
+  
+  
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="https://x.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublications%2Flambreghts2026%2F&amp;text=The&#43;prenatal&#43;foundations&#43;of&#43;kin&#43;recognition"
+    title="X"
+    aria-label="X"
+    id="share-link-x"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+  </a>
+  
+
+  
+  
+  
+  
+  
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublications%2Flambreghts2026%2F&amp;t=The&#43;prenatal&#43;foundations&#43;of&#43;kin&#43;recognition"
+    title="Facebook"
+    aria-label="Facebook"
+    id="share-link-facebook"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
+  </a>
+  
+
+  
+  
+  
+  
+  
+  
+    
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="mailto:?subject=The%20prenatal%20foundations%20of%20kin%20recognition&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublications%2Flambreghts2026%2F"
+    title="Email"
+    aria-label="Email"
+    id="share-link-email"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg>
+  </a>
+  
+
+  
+  
+  
+  
+  
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublications%2Flambreghts2026%2F&amp;title=The&#43;prenatal&#43;foundations&#43;of&#43;kin&#43;recognition"
+    title="LinkedIn"
+    aria-label="LinkedIn"
+    id="share-link-linkedin"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+  </a>
+  
+
+  
+  
+  
+  
+  
+  
+  <a
+    target="_blank" rel="noopener"
+    class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+    href="whatsapp://send?text=The&#43;prenatal&#43;foundations&#43;of&#43;kin&#43;recognition%20http%3A%2F%2Flocalhost%3A1313%2Fpublications%2Flambreghts2026%2F"
+    title="WhatsApp"
+    aria-label="WhatsApp"
+    id="share-link-whatsapp"
+  >
+    <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="m187.58 144.84-32-16a8 8 0 0 0-8 .5l-14.69 9.8a40.55 40.55 0 0 1-16-16l9.8-14.69a8 8 0 0 0 .5-8l-16-32A8 8 0 0 0 104 64a40 40 0 0 0-40 40 88.1 88.1 0 0 0 88 88 40 40 0 0 0 40-40 8 8 0 0 0-4.42-7.16ZM152 176a72.08 72.08 0 0 1-72-72 24 24 0 0 1 19.29-23.54l11.48 23L101 118a8 8 0 0 0-.73 7.51 56.47 56.47 0 0 0 30.15 30.15A8 8 0 0 0 138 155l14.61-9.74 23 11.48A24 24 0 0 1 152 176ZM128 24a104 104 0 0 0-91.82 152.88l-11.35 34.05a16 16 0 0 0 20.24 20.24l34.05-11.35A104 104 0 1 0 128 24Zm0 192a87.87 87.87 0 0 1-44.06-11.81 8 8 0 0 0-6.54-.67L40 216l12.47-37.4a8 8 0 0 0-.66-6.54A88 88 0 1 1 128 216Z"/></svg>
+  </a>
+  
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+      
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+<div class="flex pt-12 pb-4">
+  
+    
+    
+    <img
+      class="mr-4 h-24 w-24 rounded-full"
+      srcset="/media/authors/me_hu_be025a007f38c179.webp 96w, /media/authors/me_hu_4eb395e4abd765fd.webp 192w, /media/authors/me_hu_56b7ad41f4c47f6b.webp 288w, /media/authors/me_hu_412e89edc25f633f.webp 384w"
+      sizes="96px"
+      src="/media/authors/me_hu_be025a007f38c179.webp"
+      width="96"
+      height="96"
+      alt="Yorick Lambreghts"
+      loading="lazy"
+      />
+  
+  <div class="place-self-center">
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Authors
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      <span class="inline-block">
+        <a href="http://localhost:1313/" class="no-underline">
+        Yorick Lambreghts
+        </a>
+      </span><span class="text-sm font-normal text-gray-600 dark:text-gray-400 ml-1 inline-block">(he/him)</span></div>
+
+    
+    <div class="text-sm font-bold text-neutral-700 dark:text-neutral-300">
+    Behavioural ecologist
+    </div>
+    
+
+
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-300">Yorick Lambreghts is an honorary postdoctoral fellow at Macquarie University in Sydney, Australia.
+His research spans social behaviour, genetics, and conservation, focussing on how animals communicate and cooperate, how these interactions shape their evolution, and how they can adapt to changing environments.</div>
+    
+
+    <div class="text-2xl sm:text-lg pt-1">
+      
+<div class="flex flex-wrap text-neutral-500 dark:text-neutral-300">
+  
+    
+    
+    
+    
+    <a
+      class="pr-4 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="mailto:yorick.lambreghts@mq.edu.au"
+      
+      aria-label="At-Symbol"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-4 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://bsky.app/profile/yoricklambreghts.com"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Custom/Bluesky"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-4 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://github.com/YorickLambreghts"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Brands/Github"
+    ><svg style="height: 1em;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-4 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://scholar.google.com/citations?user=eqmb5HEAAAAJ&amp;hl=nl&amp;oi=ao"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Academicons/Google-Scholar"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734c1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648c0-13.694 3.596-25.352 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-4 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://orcid.org/0000-0001-5140-138X"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Academicons/Orcid"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M336.62 194.538c-7.13-3.328-13.866-5.56-20.253-6.614c-6.365-1.095-16.574-1.612-30.71-1.612h-36.704v152.747h37.634c14.673 0 26.081-1.013 34.224-3.017c8.142-2.004 14.921-4.526 20.356-7.626a69.448 69.448 0 0 0 14.942-11.388c14.488-14.714 21.742-33.273 21.742-55.717c0-22.052-7.44-40.052-22.341-53.982c-5.498-5.166-11.822-9.444-18.89-12.793zM256 8C119.022 8 8 119.042 8 256s111.022 248 248 248s248-111.042 248-248S392.978 8 256 8Zm-82.336 357.513h-29.389V160.148h29.389zM158.95 138.696c-11.14 0-20.213-9.01-20.213-20.212c0-11.118 9.052-20.191 20.213-20.191c11.18 0 20.232 9.052 20.232 20.191a20.194 20.194 0 0 1-20.232 20.212zm241.386 163.597c-5.29 12.545-12.834 23.581-22.65 33.088c-9.982 9.837-21.597 17.194-34.844 22.196c-7.75 3.017-14.839 5.063-21.307 6.117c-6.49 1.013-18.828 1.509-37.076 1.509h-64.956V160.148h69.233c27.962 0 50.034 4.154 66.32 12.545c16.265 8.37 29.181 20.728 38.792 36.972c9.61 16.265 14.425 34.018 14.425 53.196c.023 13.765-2.666 26.908-7.936 39.432z"/></svg></a>
+  
+    
+    
+    
+    
+      
+    
+    <a
+      class="pr-4 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+      style="will-change:transform;"
+      href="https://www.researchgate.net/profile/Yorick-Lambreghts"
+      target="_blank" rel="noopener" rel="me noopener noreferrer"
+      aria-label="Academicons/Researchgate"
+    ><svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M228.66 408.101c-20.194-21.973-47.218-57.268-69.698-97.166c37.134-8.685 64.633-43.55 64.633-78.384c0-51.345-39.88-75.176-92.163-75.176c-27.023 0-48.583 1.365-68.716 1.365c-18.369 0-36.722 0-48.154-.445V171.6l17.401 3.192c11.97 2.302 18.783 7.765 18.783 36.214v180.6c0 28.435-6.813 33.928-18.783 36.2l-17.4 3.252v13.259c12.367-.445 33.912-1.351 55.473-1.351c20.624 0 47.217.906 58.68 1.35v-13.258l-23.847-3.253c-12.366-1.796-18.813-7.764-18.813-36.2v-76.542c11.002.921 20.624.921 35.325.921c27.96 49.95 54.551 87.56 69.652 104.962c13.78 16.526 34.85 27.054 61.442 27.054c7.781 0 16.023-1.367 21.054-3.683v-11.894c-16.496 0-32.992-11.477-44.87-24.321zM119.064 295.344c-15.591 0-22.434-.414-33.008-1.41V178.918c10.574-.92 24.752-.92 37.136-.92c38.531 0 61.427 20.195 61.427 56.839c0 36.215-24.736 60.506-65.555 60.506zm139.934-115.703c-.46-2.409-.875-5.217-1.243-8.456c-.383-3.268-.63-7.104-.782-11.63c-.154-4.496-.215-9.99-.215-16.282c0-6.323.061-11.74.215-16.25c.152-4.528.399-8.41.782-11.648c.368-3.223.782-6.046 1.243-8.455a50.885 50.885 0 0 1 1.78-6.982c3.943-11.923 10.405-20.885 19.443-26.901C289.244 67.02 300.308 64 313.443 64c6.752 0 12.875.782 18.307 2.377c5.371 1.581 10.189 3.76 14.44 6.553c4.189 2.762 7.81 6.015 10.802 9.698a52.87 52.87 0 0 1 7.474 11.878c.75 1.35.537 2.425-.66 3.176l-16.68 6.858c-1.413.753-2.41.37-3.193-1.12c-3.743-6.936-6.936-11.493-12.183-14.807c-5.31-3.3-10.22-4.865-18.308-4.865c-8.793 0-12.721 1.749-18.23 5.693c-5.463 3.867-9.468 8.732-11.832 16.143c-.474 1.335-.905 2.993-1.41 4.942c-.415 1.98-.753 4.404-.967 7.242c-.215 2.84-.415 6.353-.598 10.497c-.123 4.144-.184 9.177-.184 15.008c0 5.86.061 10.894.184 15.038c.184 4.128.383 7.641.598 10.48c.214 2.87.552 5.279.966 7.274c.507 1.919.937 3.575 1.411 4.927c2.364 7.38 5.74 11.415 10.712 14.654c4.911 3.284 10.557 5.648 19.35 5.648c7.811 0 14.962-2.225 19.626-5.618c4.62-3.39 8.456-7.87 10.175-13.994c.753-2.579 1.72-5.786 2.38-9.714c.598-3.929.598-8.087.598-13.825c0-.907-.508-1.367-1.352-1.367h-26.716c-1.504 0-2.24-.736-2.24-2.24v-15.314c0-1.52.736-2.257 2.24-2.257h49.028c1.535 0 2.257.737 2.257 2.257v13.09c0 6.935 0 13.365-.722 19.32c-.691 5.953-1.626 11.109-2.808 14.868c-3.744 11.77-9.682 20.15-18.782 26.394c-9.131 6.291-20.9 9.682-33.684 9.682c-13.135 0-24.199-3.022-33.221-9.022c-9.039-6.077-15.5-14.993-19.443-26.916a51.103 51.103 0 0 1-1.78-6.997z"/></svg></a>
+  
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+
+
+
+
+  
+  
+    
+    
+    
+      
+      
+    
+<div class="pt-1 no-prose w-full">
+  <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+  <div class="flex flex-col md:flex-row flex-nowrap justify-between gap-5 pt-2">
+    <div class="">
+      
+    </div>
+    <div class="">
+      
+        <a class="group flex text-right no-underline" href="/publications/waddle2024/">
+          <span class="flex flex-col">
+            <span
+              class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+            >Hotspot shelters stimulate frog resistance to chytridiomycosis</span
+            >
+            <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+              
+                27 Jun 2024
+              
+            </span>
+          </span>
+          <span
+            class="mt-[-0.3rem] ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+          ><span class="ltr:inline">&rarr;</span></span>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+
+  
+
+
+
+</div>
+
+      </div>
+
+    </main>
+  </article>
+</div>
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+  
+  
+
+
+
+
+
+  <p class="powered-by footer-license-icons text-center pb-2">
+    <a class="inline-flex items-center justify-center gap-2 align-middle" href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+    <a class="inline-flex items-center justify-center gap-2 align-middle" href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <svg class="h-6 w-6 inline-block align-middle text-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" focusable="false"><path d="M253.8 214.9l-33.2 17.3c-9.4-19.6-25.2-19.9-27.5-19.9-22.1 0-33.2 14.6-33.2 43.8 0 23.6 9.2 43.8 33.2 43.8 14.5 0 24.6-7.1 30.6-21.3l30.6 15.5c-6.2 11.5-25.7 39-65.1 39-22.6 0-74-10.3-74-77 0-58.7 43-77.1 72.6-77.1 30.7 0 52.7 11.9 66 35.9zm143 0l-32.8 17.3c-9.5-19.8-25.7-19.9-27.9-19.9-22.1 0-33.2 14.6-33.2 43.8 0 23.5 9.2 43.8 33.2 43.8 14.4 0 24.6-7.1 30.5-21.3l31 15.5c-2.1 3.8-21.4 39-65.1 39-22.7 0-74-9.9-74-77 0-58.7 43-77.1 72.6-77.1 30.7 0 52.6 11.9 65.6 35.9zM255.6 8C112.7 8 8 123.1 8 256.1 8 394.5 121.6 504.1 255.6 504.1 385.5 504.1 504 403.2 504 256.1 504 118.2 397.4 8 255.6 8zm.9 450.8c-112.5 0-203.7-93-203.7-202.8 0-105.4 85.4-203.3 203.7-203.3 112.5 0 202.8 89.5 202.8 203.3 0 121.7-99.7 202.8-202.8 202.8z"/></svg>
+      <svg class="h-6 w-6 inline-block align-middle text-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" focusable="false"><path d="M322.9 194.4l0 101.4-28.3 0 0 120.5-77.1 0 0-120.4-28.3 0 0-101.5c0-4.4 1.6-8.2 4.6-11.3 3.1-3.1 6.9-4.7 11.3-4.7l101.9 0c4.1 0 7.8 1.6 11.1 4.7 3.1 3.2 4.8 6.9 4.8 11.3zm-32.5-64.5a34.5 34.5 0 1 1 -69 .8 34.5 34.5 0 1 1 69-.8zM255.6 8C397.4 8 504 118.1 504 256 504 403.1 385.5 504 255.6 504 121.6 504 8 394.5 8 256 8 123.1 112.7 8 255.6 8zm.8 44.7c-118.2 0-203.7 97.9-203.7 203.3 0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8 .1-113.8-90.2-203.3-202.8-203.3z"/></svg>
+      
+        <svg class="h-6 w-6 inline-block align-middle text-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" focusable="false"><path d="M255.6 8C395.4 8 504 115.9 504 256 504 403.2 385.5 504 255.6 504 121.1 504 8 393.2 8 256 8 123.1 112.7 8 255.6 8zM63.8 189.1c-7.4 20.4-11.1 42.7-11.1 66.9 0 110.9 92.1 202.4 203.7 202.4 122.4 0 177.2-101.8 178.5-104.1l-93.4-41.6c-7.7 37.1-41.2 53-68.2 55.4l0 38.1-28.8 0 0-38.2c-27.5-.3-52.6-10.2-75.3-29.7l34.1-34.5c31.7 29.4 86.4 31.8 86.4-2.2 0-6.2-2.2-11.2-6.6-15.1-14.2-6-1.8-.1-219.3-97.4zM256.4 52.3C218 52.3 144 61 85.9 145.3l94.8 42.5c10-31.3 40.4-42.9 63.8-44.3l0-38.1 28.8 0 0 38.1c22.7 1.2 43.4 8.9 62 23L303 199.7c-42.7-29.9-83.5-8-70 11.1 53.4 24.1 43.8 19.8 93 41.6l127.1 56.7c4.1-17.4 6.2-35.1 6.2-53.1 0-57-19.8-105-59.3-143.9-39.3-39.9-87.2-59.8-143.6-59.8z"/></svg>
+      
+      
+        <svg class="h-6 w-6 inline-block align-middle text-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" focusable="false"><path d="M255.6 8C397.4 8 504 118.1 504 256 504 403.1 385.5 504 255.6 504 121.6 504 8 394.5 8 256 8 123.1 112.7 8 255.6 8zm.8 44.7c-118.2 0-203.7 97.9-203.7 203.3 0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8 .1-113.8-90.2-203.3-202.8-203.3zm94 144.3l0 42.5-180.3 0 0-42.5 180.3 0zm0 79.8l0 42.5-180.3 0 0-42.5 180.3 0z"/></svg>
+      
+    </a>
+  </p>
+
+
+
+
+<p class="powered-by text-center">
+  
+  
+  
+  © 2026 Yorick Lambreghts. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+</p>
+
+
+
+
+  
+  
+  
+    
+    
+      
+      
+        
+        
+      
+    
+
+    <p class="powered-by text-center text-sm opacity-80 py-1">
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Kit</a>.
+      <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
+         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+    </p>  
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+<div id="hb-notification-container" class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live="polite" aria-atomic="true"></div>
+
+
+    
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+    
+    
+  </body>
+</html>

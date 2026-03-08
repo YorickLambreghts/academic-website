@@ -1,19 +1,11 @@
 ---
 date: "2023-10-24"
 math: false
-summary: 
 draft: false
 title: Field work
-type: docs
+description: Photos taken during my field work. Huge thanks to all my volunteers!
+type: docs # this prevents featured image from showing on top of the page
 ---
-
-<div>
-
-
-
-
-</div>
-
 
 {{< gallery 
     match="images/*" 

@@ -1,0 +1,48 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Yorick Lambreghts
+  given: Yorick
+  family: Lambreghts
+  pronouns: he/him
+postnominals:
+  - PhD
+# status:
+#   icon: "☕️"
+role: Behavioural ecologist
+bio: |
+  Yorick Lambreghts is an honorary postdoctoral fellow at Macquarie University in Sydney, Australia.
+  His research spans social behaviour, genetics, and conservation, focussing on how animals communicate and cooperate, how these interactions shape their evolution, and how they can adapt to changing environments.
+  
+
+affiliations:
+  - name: "Macquarie University"
+    url: "https://researchers.mq.edu.au/en/persons/yorick-lambreghts/"
+
+links:
+  - icon: "at-symbol"
+    url: "mailto:yorick.lambreghts@mq.edu.au"
+    label: "E-mail Me"
+  # - icon: "brands/x"
+  #   url: "https://twitter.com/LambreghtsY"
+  - icon: custom/bluesky
+    url: https://bsky.app/profile/yoricklambreghts.com
+  - icon: "brands/github"
+    url: "https://github.com/YorickLambreghts"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=eqmb5HEAAAAJ&hl=nl&oi=ao"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0001-5140-138X"
+  - icon: "academicons/researchgate"
+    label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Yorick-Lambreghts"
+
+interests:
+  - Behavioural Ecology
+  - Evolution
+  - Herpetology
+  - Sociality
+  - Kin recognition
+ids:
+  orcid: "0000-0001-5140-138X"
