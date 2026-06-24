@@ -33,7 +33,7 @@ sections:
       username: me
       text: |-
         My research focuses on the evolution of sociality in lizards with a particular interest in the role of kin recognition. 
-        I am developing a method to make modifications to the genome of Australian lizards using CRISPR-Cas9 in collaboration with [Prof Martin Whiting](https://whitinglab.com/people/martin-whiting/) and [Dr Oliver Griffith](https://www.oligriffith.com/dr-oliver-griffith) at [Macquarie University](https://www.mq.edu.au/).
+        I am developing a method to make modifications to the genome of Australian lizards using CRISPR-Cas9 in collaboration with [Prof Martin Whiting](https://researchers.mq.edu.au/en/persons/martin-whiting/) and [Dr Oliver Griffith](https://researchers.mq.edu.au/en/persons/oliver-griffith/) at [Macquarie University](https://www.mq.edu.au/).
         This technique will open the door for a whole suit of new opportunities for research on social evolution/recognition, as well as virtually every other aspect of Australian reptile biology.
 
         During my PhD, I focussed on kin recognition itself, its importance in the early evolution of sociality and how it was refined as social systems became increasingly complex. 
